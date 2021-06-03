@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.vrmaglev/Coordinates Transformation' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='17 20 428 118' viewBox='17 20 428 118'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.vrmaglev/Coordinates Transformation'>Coordinates Transformation</title>
+<rect id='background.vrmaglev/Coordinates Transformation' x='-4074' y='-4071' width='8588' height='8275' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/Out' class='proptable' pointer-events='none' extent_Height='164' extent_Width='146' preferred_X='445' preferred_Y='78'>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='90' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='90' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='90' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='90' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='90' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='90' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='90' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='90' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='90' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='90' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='90' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='90' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='90' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='90' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/Out' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/Out'>Out</title>
+<g><rect x='410' y='73' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='410' y='73' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='416.5' y='99' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Out</text>
+</g>
+</g>
+<g><g><text stroke='none' x='422' y='84.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_18)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/VR Signal Expander' class='proptable' pointer-events='none' extent_Height='32' extent_Width='60' preferred_X='395' preferred_Y='64'>
+  <rect x='0' y='0' width='60' height='32' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>outwidth</text>
+  <text stroke='none' x='44' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>3</text>
+  <rect x='0' y='19' width='60' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>outidx</text>
+  <text stroke='none' x='44' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[2]</text>
+  <rect x='0' y='0' width='60' height='32' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/VR Signal Expander' linkid='vrlib/VR Signal Expander' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/VR Signal Expander'>VR Signal Expander</title>
+<g><rect x='315' y='59' width='55' height='42' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='294' y='113' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VR Signal Expander</text>
+</g>
+</g>
+<g><g><text stroke='none' x='322' y='97.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_19)' font-family='Helvetica'>VR</text>
+</g>
+<line x1='323' y1='76' x2='362' y2='66' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_19)' />
+<line x1='323' y1='78' x2='362' y2='69' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_19)' />
+<line x1='323' y1='80' x2='362' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_19)' />
+<line x1='323' y1='82' x2='362' y2='91' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_19)' />
+<line x1='323' y1='84' x2='362' y2='94' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_19)' />
+</g>
+<g><rect x='315' y='59' width='55' height='42' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/Position of  Hidden Ball' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='83' preferred_Y='30'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-0.5</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/Position of  Hidden Ball' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/Position of  Hidden Ball'>Position of  Hidden Ball</title>
+<g><rect x='40' y='25' width='20' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='23.5' y='57' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Position of </text>
+</g>
+<g><text stroke='none' x='22' y='70' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Hidden Ball</text>
+</g>
+</g>
+<g><g><text stroke='none' x='41' y='39.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_20)' font-family='Helvetica'>-0.5</text>
+</g>
+</g>
+<g><rect x='40' y='25' width='20' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/Ball Presence Detection Value > Threshold = Ball Not Present 1 for "VR only"' class='proptable' pointer-events='none' extent_Height='142' extent_Width='254' preferred_X='287' preferred_Y='70'>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Criteria</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u2 >= Threshold</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Threshold</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='129' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AllowDiffInputSizes</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/Ball Presence Detection Value > Threshold = Ball Not Present 1 for "VR only"' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/Ball Presence Detection Value > Threshold = Ball Not Present 1 for "VR only"'>Ball Presence Detection Value > Threshold = Ball Not Present 1 for "VR only"</title>
+<g><rect x='180' y='65' width='30' height='30' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='138.5' y='107' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Ball Presence Detection</text>
+</g>
+<g><text stroke='none' x='108' y='120' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value > Threshold = Ball Not Present</text>
+</g>
+<g><text stroke='none' x='160.5' y='133' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1 for "VR only"</text>
+</g>
+</g>
+<g><line x1='192' y1='91' x2='192' y2='92' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='92' x2='193' y2='92' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='193' y1='92' x2='193' y2='90' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='193' y1='90' x2='192' y2='90' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='90' x2='192' y2='91' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='91' x2='180' y2='91' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='70' x2='192' y2='71' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='71' x2='193' y2='71' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='193' y1='71' x2='193' y2='69' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='193' y1='69' x2='192' y2='69' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='69' x2='192' y2='70' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='192' y1='70' x2='180' y2='70' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='193' y1='70' x2='204' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='204' y1='80' x2='210' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='189' y1='83' x2='189' y2='77' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='189' y1='77' x2='189' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+<line x1='189' y1='80' x2='180' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_21)' />
+</g>
+<g><rect x='180' y='65' width='30' height='30' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/In' class='proptable' pointer-events='none' extent_Height='186' extent_Width='195' preferred_X='70' preferred_Y='88'>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='173' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/In' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/In'>In</title>
+<g><rect x='35' y='83' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='35' y='83' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='45.5' y='109' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>In</text>
+</g>
+</g>
+<g><g><text stroke='none' x='47' y='94.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_22)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/_uniq_id_17' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='185' preferred_Y='40'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/_uniq_id_17' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/_uniq_id_17'>line</title>
+<line x1='60' y1='35' x2='65' y2='35' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='175' y1='70' x2='165' y2='70' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='170,65 170,75 180,70 170,65 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='63,35 65,35 165,35 165,70 167,70 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/_uniq_id_18' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='185' preferred_Y='80'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/_uniq_id_18' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/_uniq_id_18'>line</title>
+<line x1='175' y1='80' x2='165' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='170,75 170,85 180,80 170,75 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='135,90 135,80 165,80 167,80 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='175' y1='90' x2='165' y2='90' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='170,85 170,95 180,90 170,85 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='135,90 165,90 167,90 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='65' y1='90' x2='70' y2='90' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='68,90 70,90 135,90 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='134' y='89' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='134' y='89' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/_uniq_id_19' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='320' preferred_Y='80'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/_uniq_id_19' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/_uniq_id_19'>line</title>
+<line x1='210' y1='80' x2='215' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='310' y1='80' x2='300' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='305,75 305,85 315,80 305,75 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='213,80 215,80 300,80 302,80 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Coordinates Transformation/_uniq_id_20' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='415' preferred_Y='80'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Coordinates Transformation/_uniq_id_20' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Coordinates Transformation/_uniq_id_20'>line</title>
+<line x1='370' y1='80' x2='375' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='405' y1='80' x2='395' y2='80' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='400,75 400,85 410,80 400,75 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='373,80 375,80 395,80 397,80 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_18'><rect x='410' y='73' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_19'><rect x='315' y='59' width='55' height='42' /></clipPath>
+  <clipPath id='clip_rect_20'><rect x='40' y='25' width='20' height='20' /></clipPath>
+  <clipPath id='clip_rect_21'><rect x='180' y='65' width='30' height='30' /></clipPath>
+  <clipPath id='clip_rect_22'><rect x='35' y='83' width='30' height='14' /></clipPath>
+</defs>
+</svg>

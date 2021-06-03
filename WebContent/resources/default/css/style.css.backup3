@@ -1,0 +1,195 @@
+
+/* ------------------------------- layout ---------------------------------- */
+html,body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-width: 800px;				/* minimum width of the page */
+	font-size: 1em;
+	font-family: Arial, sans-serif !important;
+	background-color: #eee;
+}
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -30px;			/* this must be negative height of the footer  */
+}
+
+#header {
+	height: 100px;
+}
+
+#content-container {
+	min-height: 50px;				/* minimum height of the page, without header and footer */
+	margin-top: 20px;
+}
+
+#content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#footer,#push {
+	height: 30px;
+}
+
+
+
+
+/* ---------------- jquery ui components tweaks --------------------- */
+.ui-widget {
+	font-size: 90%;
+/* 	font-size: 1em; */
+}
+
+.ui-widget-header {
+	text-shadow: none !important;
+}
+
+/* ul.ui-menu-child {
+	white-space: nowrap;
+	width: auto !important;
+	min-width: 170px;
+}
+
+.ui-menu-dynamic {
+	white-space: nowrap;
+	width: auto !important;
+	min-width: 170px;
+} */
+
+/* .ui-menu .ui-menuitem-link {
+	border: solid 0px transparent !important;
+} */
+
+.header-menubar .ui-menuitem-link {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+	font-weight: bold !important;
+	font-size: 100% !important;
+}
+
+.header-menubar .ui-menu-child .ui-menuitem-text {
+	font-weight: normal !important;
+}
+
+
+.language-selection-container .ui-widget-content {
+	background: none;
+	border: none;
+}
+
+.language-selection-container .ui-datalist-data {
+	padding: 0px;
+	margin: 0px;
+}
+
+.language-selection-container ul {
+	list-style: none;
+}
+
+.language-selection-container ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* ------------------------- custom styles ----------------------------- */
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.header-content {
+	height: 98px !important;			/* height of the header minus 2px for border  */
+	position: relative;
+}
+
+/* .header-menubar {
+	height: 89px;
+} */
+
+/* .header-menubar2 {
+	background: none;
+	background: orange;
+	border: none;
+	margin-top: 56px;
+	
+	padding-bottom: 0px !important;
+} */
+
+.header-menubar {
+	background: none;
+	border: none;
+	padding: 0px !important;
+}
+
+.account-options {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.9em;
+}
+
+
+.header-content .logo-container {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+}
+
+.header-content .language-selection-container {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.header-content .language-selection-container .flag {
+	margin: 0 5px;
+	width: 28px;
+}
+
+.header-content .main-menubar-container {
+	position: absolute;
+	bottom: 2px;
+	left: 10px;
+}
+
+.header-content .account-controls-container {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.header-content .account-controls-container a {
+	margin: 0 10px;
+	font-size: 95%;
+}
+
+/* .header-content .account-controls-container .ui-menu-child {
+   left: -200px !important;
+} */
+
+/* .account-options .ui-icon {
+    background-image: none !important;
+} */
+
+
+.footer-content {
+	height: 28px !important;		/* height of the footer minus 2px for border  */
+	font-weight: normal;
+	font-size: 75%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 28px;	
+}
+

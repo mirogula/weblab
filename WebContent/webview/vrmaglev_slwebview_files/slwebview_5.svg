@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='10 8 420 211' viewBox='10 8 420 211'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator'>Switch Setpoint Selection Method Virtual Reality / Generator</title>
+<rect id='background.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator' x='-4081' y='-4083' width='8587' height='8380' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/y' class='proptable' pointer-events='none' extent_Height='164' extent_Width='146' preferred_X='430' preferred_Y='93'>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='90' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='90' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='90' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='90' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='90' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='90' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='90' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='90' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='90' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='90' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='90' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='90' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='90' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='90' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/y' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/y'>y</title>
+<g><rect x='395' y='88' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='395' y='88' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='407.5' y='114' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>y</text>
+</g>
+</g>
+<g><g><text stroke='none' x='407' y='99.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_48)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/SwitchControl' class='proptable' pointer-events='none' extent_Height='142' extent_Width='254' preferred_X='342.5' preferred_Y='71'>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Criteria</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u2 > Threshold</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Threshold</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>uint8(1)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='129' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AllowDiffInputSizes</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/SwitchControl' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/SwitchControl'>SwitchControl</title>
+<g><rect x='290' y='66' width='30' height='58' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='272.5' y='136' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SwitchControl</text>
+</g>
+</g>
+<g><line x1='302' y1='116' x2='302' y2='118' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='118' x2='303' y2='118' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='303' y1='118' x2='303' y2='114' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='303' y1='114' x2='302' y2='114' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='114' x2='302' y2='116' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='116' x2='290' y2='116' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='75' x2='302' y2='77' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='77' x2='303' y2='77' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='303' y1='77' x2='303' y2='73' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='303' y1='73' x2='302' y2='73' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='73' x2='302' y2='75' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='302' y1='75' x2='290' y2='75' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='303' y1='75' x2='314' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='314' y1='95' x2='320' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='299' y1='101' x2='299' y2='90' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='299' y1='90' x2='299' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+<line x1='299' y1='95' x2='290' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_49)' />
+</g>
+<g><rect x='290' y='66' width='30' height='58' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/S-Function' class='proptable' pointer-events='none' extent_Height='32' extent_Width='161' preferred_X='235' preferred_Y='84'>
+  <rect x='0' y='0' width='161' height='32' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>FunctionName</text>
+  <text stroke='none' x='86' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>sfblk_manswitch</text>
+  <rect x='0' y='19' width='161' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SFunctionModules</text>
+  <text stroke='none' x='86' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>&apos;&apos;</text>
+  <rect x='0' y='0' width='161' height='32' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/S-Function' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/S-Function'>S-Function</title>
+<g><rect x='135' y='79' width='95' height='32' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='156.5' y='123' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>S-Function</text>
+</g>
+</g>
+<g><g><text stroke='none' x='144.5' y='99.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_50)' font-family='Helvetica'>sfblk_manswitch</text>
+</g>
+</g>
+<g><rect x='135' y='79' width='95' height='32' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/Constant' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='110.5' preferred_Y='90'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>uint8(1)</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/Constant' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/Constant'>Constant</title>
+<g><rect x='65' y='85' width='40' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='64.5' y='117' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Constant</text>
+</g>
+</g>
+<g><g><text stroke='none' x='67' y='99.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_51)' font-family='Helvetica'>uint8(1)</text>
+</g>
+</g>
+<g><rect x='65' y='85' width='40' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u2' class='proptable' pointer-events='none' extent_Height='186' extent_Width='195' preferred_X='50' preferred_Y='193'>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>2</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='173' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u2' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u2'>u2</title>
+<g><rect x='15' y='188' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='15' y='188' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='24' y='214' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u2</text>
+</g>
+</g>
+<g><g><text stroke='none' x='27' y='199.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_52)' font-family='Helvetica'>2</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u1' class='proptable' pointer-events='none' extent_Height='186' extent_Width='195' preferred_X='50' preferred_Y='18'>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='173' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator/u1'>u1</title>
+<g><rect x='15' y='13' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='15' y='13' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='24' y='39' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='27' y='24.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_53)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_44' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='140' preferred_Y='95'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_44' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_44'>line</title>
+<line x1='105' y1='95' x2='110' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='130' y1='95' x2='120' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='125,90 125,100 135,95 125,90 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='108,95 110,95 120,95 122,95 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_45' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='295' preferred_Y='95'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_45' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_45'>line</title>
+<line x1='230' y1='95' x2='235' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='285' y1='95' x2='275' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='280,90 280,100 290,95 280,90 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='233,95 235,95 275,95 277,95 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_46' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='295' preferred_Y='25'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_46' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_46'>line</title>
+<line x1='45' y1='20' x2='50' y2='20' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='285' y1='75' x2='275' y2='75' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='280,70 280,80 290,75 280,70 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='48,20 50,20 275,20 275,75 277,75 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_47' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='295' preferred_Y='115'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_47' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_47'>line</title>
+<line x1='45' y1='195' x2='50' y2='195' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='285' y1='115' x2='275' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='280,110 280,120 290,115 280,110 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='48,195 50,195 275,195 275,115 277,115 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_48' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='400' preferred_Y='95'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_48' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Switch Setpoint Selection Method Virtual Reality / Generator/_uniq_id_48'>line</title>
+<line x1='320' y1='95' x2='325' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='390' y1='95' x2='380' y2='95' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='385,90 385,100 395,95 385,90 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='323,95 325,95 380,95 382,95 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_48'><rect x='395' y='88' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_49'><rect x='290' y='66' width='30' height='58' /></clipPath>
+  <clipPath id='clip_rect_50'><rect x='135' y='79' width='95' height='32' /></clipPath>
+  <clipPath id='clip_rect_51'><rect x='65' y='85' width='40' height='20' /></clipPath>
+  <clipPath id='clip_rect_52'><rect x='15' y='188' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_53'><rect x='15' y='13' width='30' height='14' /></clipPath>
+</defs>
+</svg>

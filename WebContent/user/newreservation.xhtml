@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="content">
+	    
+		<h:form id="form">
+			
+				<p:schedule id="schedule" value="#{scheduleController.eventModel}" widgetVar="myschedule" view="month" aspectRatio="2" allDaySlot="false">
+
+                    <p:ajax event="dateSelect" listener="#{reservationBean.onDateSelect}" update="eventDetails" oncomplete="newReservationDialog.show()" />
+                    <!-- <p:ajax event="eventSelect" listener="#{scheduleController.onEventSelect}" update="eventDetails" oncomplete="eventDialog.show()" /> -->
+
+
+				</p:schedule>
+
+                <p:dialog widgetVar="newReservationDialog" header="#{msg['newreservation.dialog.title']}" showEffect="clip" hideEffect="clip" modal="true">
+                    <h:panelGrid id="eventDetails" columns="2">
+                        <h:outputLabel for="realSystem" value="#{msg['newreservation.dialog.realequipment']}" />
+                        <p:selectOneMenu id="realSystem" value="#{reservationBean.newReservation.realSystem}">
+							<f:selectItems value="#{reservationBean.realSystems}"/>
+						</p:selectOneMenu>
+                        
+                        <h:outputLabel for="date" value="#{msg['newreservation.dialog.date']}" />
+                        <h:outputText id="date" value="#{reservationBean.selectedDate}">
+                        	<f:convertDateTime type="date"/>
+                        </h:outputText>
+                        
+                        <h:outputLabel for="time" value="#{msg['newreservation.dialog.time']}" />
+                        <p:selectOneMenu id="time" value="#{reservationBean.time}">
+							<f:selectItems value="#{reservationBean.timeValues}"/>
+						</p:selectOneMenu>  
+
+                        <h:outputLabel for="duration" value="#{msg['newreservation.dialog.duration']}" />
+                        <p:selectOneMenu id="duration" value="#{reservationBean.duration}">
+							<f:selectItems value="#{reservationBean.durations}"/>
+						</p:selectOneMenu>                      
+
+                        <p:commandButton id="addButton" value="#{msg['newreservation.dialog.save']}" action="#{reservationBean.submit}" oncomplete="myschedule.update();newReservationDialog.hide();"/>
+                    	<h:panelGroup />
+                    </h:panelGrid>
+                </p:dialog>
+                </h:form>
+                </ui:define>
+
+</ui:composition>
+</html>

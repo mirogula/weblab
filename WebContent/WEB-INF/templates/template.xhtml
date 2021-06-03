@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<f:view contentType="text/html" encoding="utf-8" locale="#{languageBean.locale}">
+
+	<h:head>
+		<f:facet name="first">
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<title>
+				<ui:insert name="html-head-title">jLab</ui:insert>
+			</title>
+		</f:facet>
+		<h:outputStylesheet library="default" name="css/style.css" />
+		<h:outputStylesheet library="awesome" name="css/font-awesome.css" />
+<!-- 		<link rel="stylesheet" href="resources/default/font-awesome-4.1.0/css/font-awesome.min.css"/> -->
+		<h:outputScript library="default" name="js/primefaces_locale_sk_SK.js" />
+		<ui:insert name="local-styles">
+		
+		</ui:insert>
+	</h:head>
+
+	<h:body>
+	
+		<ui:insert name="html-body">
+
+			<div id="wrapper">
+			
+				<div id="header">
+					<!-- header include begins here  -->
+										
+					<div class="header-content ui-widget ui-widget-header ui-corner-bottom">
+									
+						<h:form id="header-form">
+
+							<div class="logo-container">
+								<h:link outcome="index">
+									<p:graphicImage library="default" height="65" name="img/logo.png" />
+								</h:link>
+							</div>
+
+							<div class="language-selection-container">
+								<p:dataList value="#{languageBean.availableLocales}" var="locale">
+									<p:commandLink actionListener="#{languageBean.setLocale(locale)}" update="@all">
+										<p:graphicImage
+											library="default" 
+											name="img/flags/#{locale.country.toLowerCase()}.png" 
+											title="#{locale.getDisplayLanguage(locale)}"
+											styleClass="flag" />
+									</p:commandLink>
+								</p:dataList>
+								
+							</div>
+							
+							<div class="main-menubar-container">
+								<p:menubar 
+										id="main-menubar"
+										styleClass="main-menubar" 
+										autoDisplay="true"
+										rendered="#{not empty request.remoteUser}">
+									<p:menuitem value="Experimenty" url=""/>
+									<p:menuitem value="Rezervácie" url="#"/>
+								</p:menubar>
+							</div>
+							
+							<div class="account-controls-container">
+							
+								<h:panelGroup layout="block" rendered="#{not empty request.remoteUser}" >
+									<h:outputText value="#{msg['header.loggedin']}" style="color: #4f4f4f"/>
+									<h:link outcome="/user/userprofile">
+										<h:outputText value="#{request.remoteUser}"/>
+									</h:link>
+									<p:commandLink  action="#{logoutBean.submit}">
+										<h:outputText value="#{msg['header.logout']}"/>
+									</p:commandLink>
+								</h:panelGroup>
+								
+								<h:panelGroup layout="block" rendered="#{empty request.remoteUser}">
+									<h:link outcome="login">
+										<h:outputText value="#{msg['header.login']}"/>
+									</h:link>
+									<h:link outcome="register">
+										<h:outputText value="#{msg['header.signup']}"/>
+									</h:link>
+								</h:panelGroup>
+							</div>
+							
+						</h:form> 
+					</div>
+					
+					<!-- header include ends here  -->
+				</div>
+				
+
+				<div id="content-container">
+					<ui:insert name="content-container">	
+						
+						<div id="content">
+							<div class="breadcrumbs2">
+								<ui:insert name="breadcrumbs">
+						
+								</ui:insert>
+							</div>
+							<hr style="margin-bottom: 30px;" />
+						
+							<ui:insert name="content">
+							
+							</ui:insert>
+						</div>
+					</ui:insert>
+				</div>
+
+				<div id="push"></div>
+				
+			</div>
+
+			<div id="footer">
+				<!-- footer include begins here  -->
+				<h:form>
+					<div class="footer-content ui-widget ui-widget-header">
+						#{msg['footer.text']}
+					</div>
+				</h:form>
+				<!-- footer include ends here  -->
+			</div>
+
+		</ui:insert>
+	</h:body>
+</f:view>
+
+</html>

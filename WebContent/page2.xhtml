@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<f:metadata>
+		<f:viewParam id="text" required="true" name="text" value="#{testBean.text}" />
+		<f:viewParam id="text1" required="true" name="text1" value="#{testBean.text1}" />
+		<f:event listener="#{testBean.init()}" type="preRenderView" />
+	</f:metadata>
+
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+	
+		<ui:define name="content">
+		     
+				<h:form id="testForm2">
+					<p:messages />
+					<h:outputText value="#{testBean.text}" />
+					<!-- <h:inputHidden value="#{testBean.text}" /> -->
+					<br />
+					<h:outputText value="#{testBean.text1}" />
+					<!-- <h:inputHidden value="#{testBean.text1}" />  -->
+					
+					<br />
+					
+					<p:commandButton value="back (p:commandButton)" action="page1?faces-redirect=true&amp;includeViewParams=true" ajax="false">
+						<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					</p:commandButton>
+					
+					<br />
+					
+					<p:button value="back (p:button)" outcome="page1" includeViewParams="true" >
+						<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					</p:button>
+					
+				</h:form>
+			
+		</ui:define>
+	
+	</ui:composition>
+</html>

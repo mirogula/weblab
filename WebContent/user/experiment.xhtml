@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+	
+		<ui:define name="header">
+		</ui:define>
+	
+		<ui:define name="pageContent">
+	
+	<script>
+		function populateWebviewWithOnclickEvents() {
+			
+		}
+		
+		
+	</script>
+
+
+	<h:form id="form">
+	
+		<p:toolbar id="controlToolbar">
+			<p:toolbarGroup>
+				<p:commandButton value="Otvoriť blokovú schému" action="#{experimentBean.openBlockDiagram('vrmaglev')}" icon="ui-icon-folder-open" />
+				<p:separator />
+				<p:commandButton icon="ui-icon-play" /> 
+				<p:commandButton icon="ui-icon-pause" />
+				<p:commandButton icon="ui-icon-stop" />
+				<p:separator />
+				<p:commandButton value="Ukončiť experiment" action="#{experimentBean.closeConnection}" />
+			</p:toolbarGroup>
+			<p:toolbarGroup align="right">
+				<p:ajaxStatus  id="ajaxStatusPanel">
+					<f:facet name="start">
+						<h:graphicImage style="width:32px;height:32px; display:inline;" library="default" name="img/load.gif" />
+					</f:facet>
+
+					<f:facet name="complete">
+						<h:outputText value="" />
+					</f:facet>
+				</p:ajaxStatus>
+			</p:toolbarGroup>
+		</p:toolbar>
+		
+		<p:sticky target="controlToolbar" />
+	
+<!-- 		<p:panel style="width: 700px;"> -->
+<!-- 		<h2>#{msg['experiment.realsystemname']} Test | #{msg['experiment.schemaname']} vrmaglev</h2> -->
+<!-- 		<h:panelGrid columns="4"> -->
+<!-- 			<p:commandButton value="#{msg['experiment.endexperiment']}" style="margin-right: 10px;" action="/index.xhtml?faces-redirect=true" ajax="false" /> -->
+<!-- 			<p:commandButton value="#{msg['experiment.addnewgraph']}" style="margin-right: 10px;" /> -->
+<!-- 			<h:panelGroup> -->
+<!-- 				<p:outputLabel style="font-weight: bold; margin-right: 5px;" value="#{msg['experiment.showschema']}"/> -->
+<!-- 				<p:selectBooleanCheckbox style="vertical-align: text-top; margin-right: 10px;" /> -->
+<!-- 			</h:panelGroup> -->
+<!-- 			<h:panelGroup> -->
+<!-- 				<p:outputLabel style="font-weight: bold; margin-right: 5px;" value="#{msg['experiment.showcommandwindow']}"/> -->
+<!-- 				<p:selectBooleanCheckbox style="vertical-align: text-top; margin-right: 5px;" /> -->
+<!-- 			</h:panelGroup> -->
+<!-- 		</h:panelGrid> -->
+<!-- 		</p:panel> -->
+		
+		<p:growl id="growl" showDetail="true" sticky="true" redisplay="true"/> 
+		
+		<p:dialog id="errorDialog" modal="true" header="ERROR" visible="#{linechartBean.errorDialogVisible}">
+			<h:outputText value="#{linechartBean.errorDialogText}"/>
+		</p:dialog>
+	
+		<p:panel id="controlPanel" header="#{msg['experiment.controlpanel']}" 
+				style="width:450px; position: absolute;" toggleable="true" >
+			<p:commandButton style="margin-right: 15px;" id="startCommand"
+				 update="poll, growl, errorDialog" actionListener="#{linechartBean.setRunning(true)}" onclick="poll.start();" icon="ui-icon-play" iconPos="center" /> 
+			<p:commandButton id="stopCommand"  style="margin-right: 25px;"
+				 update="poll, growl, errorDialog" actionListener="#{linechartBean.setRunning(false)}" onclick="poll.stop();" icon="ui-icon-stop" iconPos="center" />
+			<p:selectBooleanCheckbox style="vertical-align: text-top; margin-right: 5px;" />
+			<p:outputLabel style="font-weight: bold; margin-right: 5px;" value="#{msg['experiment.setsimulationtime']}"/>
+			<p:inputText disabled="true" value="Inf"/>
+		</p:panel>
+		<p:draggable for="controlPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+
+		<p:panel id="paramPanel" header="#{msg['experiment.parameters']}" 
+				style="position: absolute;" toggleable="true" >
+			<p:tabView>
+				<p:tab title="Parametre Regulátora">
+					<h:panelGrid columns="3" >
+						<h:outputLabel value="Kp:" />
+						<p:inputText value="1" size="30"/>
+						<p:commandButton value="#{msg['experiment.parameters.setbutton']}" />
+					
+						<h:outputLabel value="Ki:" />
+						<p:inputText value="10" size="30"/>
+						<p:commandButton value="#{msg['experiment.parameters.setbutton']}" />
+						
+						<h:outputLabel value="Kd:" />
+						<p:inputText value="0.03" size="30"/>
+						<p:commandButton value="#{msg['experiment.parameters.setbutton']}" />						
+					</h:panelGrid>
+				</p:tab>
+				<p:tab title="Parametre Levitácie">
+					<h:panelGrid columns="3" >
+						<h:outputLabel value="Amplitude:" />
+						<p:inputText value="1" size="30"/>
+						<p:commandButton value="#{msg['experiment.parameters.setbutton']}" />
+					
+						<h:outputLabel value="Frequency:" />
+						<p:inputText value="7" size="30"/>
+						<p:commandButton value="#{msg['experiment.parameters.setbutton']}" />
+					</h:panelGrid>
+				</p:tab>
+ 			</p:tabView>
+		</p:panel>
+		<p:draggable for="paramPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+
+
+
+		<p:poll id="poll" interval="1" update="linechart1" onstart="linechart1.plot.replot()" autoStart="false" listener="#{linechartBean.updateModel}" widgetVar="poll" />
+
+
+
+		<p:panel id="linechartPanel1" header="graph1" 
+				style="width:300px; position: absolute;" closable="true" toggleable="true" >
+			<p:lineChart id="linechart1" value="#{linechartBean.model[0]}" shadow="false" widgetVar="linechart1"
+					minX="#{linechartBean.minX[0]}" maxX="#{linechartBean.maxX[0]}" zoom="true" /> 
+			<f:facet name="options">  
+            <p:menu>  
+                
+           		<p:menuitem value="#{msg['experiment.graphmenu.settings']}" url="#" icon="ui-icon-newwin" onclick="graphDialog.show()"/>  
+           		<p:menuitem value="#{msg['experiment.graphmenu.export']}" url="#" icon="ui-icon-close" />  
+
+            </p:menu>  
+        </f:facet>  
+		</p:panel>
+		<p:resizable for="linechartPanel1" onResize="$('#linechart1').height($('#linechartPanel1').height()*0.96);
+                         $('#linechart1').width($('#linechartPanel1').width()*0.96);
+                         linechart1.plot.replot( { resetAxes: true } )" />
+		<p:draggable for="linechartPanel1" handle=".ui-panel-titlebar" stack=".ui-panel" />
+		<p:droppable>
+			<p:ajax listener="#{linechartBean.onDrop}" />
+		</p:droppable>
+		
+		
+		<p:panel id="terminalPanel" header="#{msg['experiment.commandwindow']}" style="width:400px; height: 200px; 
+				position: absolute;" toggleable="true">
+			<p:terminal commandHandler="#{linechartBean.handleCommand}" height="170px" width="370px" prompt=">>" welcomeMessage=""/>
+		</p:panel>
+		<p:resizable for="terminalPanel" />
+		<p:draggable for="terminalPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+		
+		
+		<p:panel id="webviewPanel" header="#{msg['experiment.schema']}" 
+				style="position: absolute;" toggleable="true" >
+			<!-- <iframe style="position: absolute; height: 80%; top: 40px; left: 13px; width: 96%;" src="webview/bbbb_slwebview.html"></iframe>  -->
+			<iframe id="webviewFrame" height="85%" width="100%" src="#{request.contextPath}/webview/vrmaglev1_slwebview.html">
+				iframe not supported
+			</iframe>
+		</p:panel>
+		<p:resizable for="webviewPanel"/>
+		<p:draggable for="webviewPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+
+
+
+		<p:dialog widgetVar="graphDialog" header="#{msg['experiment.graphdialog.title']}" showEffect="clip" hideEffect="clip" modal="true">
+			<h:panelGrid id="eventDetails" columns="2">
+				<h:outputLabel for="graphName" value="#{msg['experiment.graphdialog.graphname']}" />
+				<p:inputText value="" />
+				
+				<h:outputLabel for="graphData" value="#{msg['experiment.graphdialog.graphdata']}" />
+				 <p:tree value="#{experimentBean.root}" var="node" selection="#{experimentBean.selectedNodes}" id="checkboxTree" selectionMode="checkbox" >
+					<p:treeNode>  
+						<h:outputText value="#{node}" />  
+					</p:treeNode>  
+				 </p:tree>
+
+
+
+				<p:commandButton id="addButton"	value="#{msg['experiment.graphdialog.save']}" oncomplete="graphDialog.hide();" />
+				<h:panelGroup />
+			</h:panelGrid>
+		</p:dialog>
+		</h:form>
+
+	</ui:define>
+	
+	<ui:define name="footer">
+	</ui:define>
+
+</ui:composition>
+
+</html>

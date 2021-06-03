@@ -1,0 +1,319 @@
+
+/* ------------------------------- layout ---------------------------------- */
+html,body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-width: 900px;				/* minimum width of the page */
+	font-size: 1em;
+	font-family: Arial, sans-serif !important;
+	background-color: #eee;
+}
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -25px;			/* this must be negative height of the footer  */
+}
+
+#header {
+	height: 80px;
+}
+
+#content-container {
+	min-height: 50px;				/* minimum height of the page, without header and footer */
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#content {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0.9em !important;
+}
+
+#footer,#push {
+	height: 25px;
+}
+
+
+
+
+/* ---------------- jquery ui components tweaks --------------------- */
+.ui-widget {
+	font-size: 90%;
+/* 	font-size: 1em; */
+}
+
+/* .ui-widget-header { */
+/* 	text-shadow: none !important; */
+/* } */
+
+/* ul .ui-menu-child {
+	white-space: nowrap;
+	width: auto !important;
+	min-width: 170px;
+}
+
+.ui-menu-dynamic {
+	white-space: nowrap;
+	width: auto !important;
+	min-width: 170px;
+}
+
+
+.ui-menu-child .ui-menuitem-link {
+	width: auto !important;
+	min-width: 20px;
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+} */
+
+
+.header-content .main-menubar-container .main-menubar .ui-menu-child {
+	background: #dedede !important;
+/* 	font-size: 100% !important; */
+	width: auto;
+	min-width: 10em;
+}
+
+.header-content .main-menubar-container .main-menubar .ui-menu-child .ui-menuitem-link {
+	padding: 0.2em 0.3em !important;
+}
+
+/* .header-content .main-menubar-container .main-menubar .ui-shadow { */
+/* 	box-shadow: none; */
+/* 	-webkit-box-shadow: none; */
+/* } */
+
+.header-content .main-menubar-container .main-menubar .ui-state-hover {
+	background: #baccd6;
+	border: 1px solid #9ca6ac;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.header-menubar .ui-menu-child .ui-menuitem-text {
+	font-weight: normal !important;
+}
+
+
+.language-selection-container .ui-widget-content {
+	background: none;
+	border: none;
+}
+
+.language-selection-container .ui-datalist-data {
+	padding: 0px;
+	margin: 0px;
+}
+
+.language-selection-container ul {
+	list-style: none;
+}
+
+.language-selection-container ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* ------------------------- custom styles ----------------------------- */
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.header-content {
+	height: 78px !important;			/* height of the header minus 2px for border  */
+	position: relative;
+	
+	border-top: none;
+	border-left: none;
+	border-right: none;
+
+	border-radius: 0;
+	
+	text-shadow: none !important;
+}
+
+
+.account-options {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.9em;
+}
+
+
+.header-content .logo-container {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.header-content .language-selection-container {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.header-content .language-selection-container .flag {
+	margin: 0 5px;
+	width: 28px;
+}
+
+.header-content .main-menubar-container {
+	position: absolute;
+	bottom: 10px;
+	left: 230px;
+}
+
+
+.header-content .main-menubar-container .main-menubar {
+/* 		background: #eee; */
+	/* 	border: none; */
+	/* 	padding: 0px !important; */
+	
+	background: #dedede;
+	font-size: 110%;
+}
+
+
+	
+.header-content .account-controls-container {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.header-content .account-controls-container a {
+	margin: 0 10px;
+/* 	font-size: 95%; */
+}
+
+/* .header-content .account-controls-container .ui-menu-child {
+   left: -200px !important;
+} */
+
+/* .account-options .ui-icon {
+    background-image: none !important;
+} */
+
+
+.footer-content {
+	height: 24px !important;		/* height of the footer minus 1px for top border  */
+	font-weight: normal;
+	font-size: 75%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 24px;	
+
+	border-bottom: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-radius: 0;
+}
+
+.content-title {
+	color: #444;
+/* 	margin-bottom: 15px; */
+	font-size: 1.8em; 
+	font-weight: normal;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #999;
+	margin: 30px 0px;
+}
+
+/* .breadcrumbs {
+	color: #444;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	font-size: 1em; 
+	font-weight: normal;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #999;
+	display: inline-block;
+} */
+
+/* .breadcrumbs { */
+/* 	color: #444; */
+/* /* 	margin-bottom: 5px;  */
+/* 	margin-top: 5px; */
+/* 	margin-left: 10px; */
+/* 	font-size: 0.8em;  */
+/* 	font-weight: normal; */
+/* /* 	padding-bottom: 3px; */
+/* /* 	border-bottom: 2px solid #999;  */
+/* 	display: inline-block; */
+/* 	border: 1px solid #a8a8a8; */
+/* 	-webkit-border-radius: 3px; */
+/* 	border-radius: 3px; */
+/* 	padding: 5px 10px; */
+/* } */
+
+.breadcrumbs {
+	color: #444;
+/* 	margin-bottom: 5px; */
+/* 	margin-top: 5px; */
+/* 	margin-left: 10px; */
+	font-size: 0.9em; 
+	font-weight: normal;
+/* 	padding-bottom: 3px; */
+/* 	border-bottom: 2px solid #999; */
+	display: inline-block;
+	border: 1px solid #a8a8a8;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 4px 8px;
+/* 	position: relative; */
+/* 	top: -17px; */
+	margin-top: -15px;
+	margin-bottom: -5px;
+}
+
+
+.breadcrumbs2 {
+	color: #555;
+/* 	margin-bottom: 5px; */
+/* 	margin-top: 5px; */
+/* 	margin-left: 10px; */
+	font-size: 1.2em; 
+	font-weight: normal;
+/* 	padding-bottom: 3px; */
+/* 	border-bottom: 2px solid #999; */
+	display: inline-block;
+	border: 1px solid #a8a8a8;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px 8px;
+/* 	position: relative; */
+/* 	top: -17px; */
+/* 	margin-top: -15px;
+	margin-bottom: -5px; */
+/* 	margin-bottom: 20px; */
+}
+
+
+/* .breadcrumbs .arrow { */
+/* 	font-size: 90%; */
+/* /* 	vertical-align: middle;  */
+/* } */
+
+
+.standard-content-panel {
+	border: none !important;
+	background: #eee !important;
+	padding: 0px 100px !important;
+}
+
+

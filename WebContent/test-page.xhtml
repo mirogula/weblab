@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="html-head-title">Layout test page</ui:define>
+
+<!-- 	<ui:define name="breadcrumbs">Rezervacie <span class="arrow">➔</span> Moje Rezervacie sdfsf dsfdsfdsf sdfsd dfs sdfdsf dfsdsf sdf sdf fdsfs f dsfds  fdsfdsfdsfs dsf dsfs fsd fds f</ui:define> -->
+	
+<!-- 	<ui:define name="breadcrumbs">Rezervacie</ui:define> -->
+<!-- 	<ui:define name="breadcrumbs">Rezervacie <span>➔</span> Moje Rezervacie</ui:define> -->
+		
+		<ui:define name="breadcrumbs">Rezervacie <span>➔</span> Moje Rezervacie</ui:define>
+		
+	<ui:define name="content">
+		
+<!-- 		<div class="breadcrumbs2">
+			Rezervacie <span>➔</span> Moje Rezervacie
+			Rezervacie
+		</div>
+ -->		
+		
+		
+	<!-- 	<p:panel>
+			<h3>test</h3>
+			jdskflsajfkdsl
+		
+		</p:panel> -->
+		
+		<h:form id="schedule-form">
+				
+<!-- 				<h1 style="color: #444; margin-bottom: 5px; font-size: 1.8em; font-weight: normal;">Rezervacie</h1> -->
+				
+<!-- 				<h1 class="content-title">Moje Rezervacie</h1> -->
+				
+<!-- 				<h1 class="content-title">Rezervacie <span style="font-size: 1em; vertical-align: middle;">➜</span> Moje Rezervacie sdfsf dsfdsfdsf sdfsd dfs sdfdsf dfsdsf sdf sdf fdsfs f dsfds  fdsfdsfdsfs dsf dsfs fsd fds f</h1> -->
+<!-- 				<h1 class="content-title">Rezervacie <span style="font-size: 0.8em; vertical-align: middle;">➤</span> Moje Rezervacie sdfsf dsfdsfdsf sdfsd dfs sdfdsf dfsdsf sdf sdf fdsfs f dsfds  fdsfdsfdsfs dsf dsfs fsd fds f</h1> -->
+<!--				<p:breadCrumb>
+ 					<p:menuitem value="Home" url="#" />
+					<p:menuitem value="Rezervacie" url="#" />
+				</p:breadCrumb> -->
+				
+<!-- 				<hr /> -->
+				
+				<p:panel style="margin: 0 auto; width: 750px; background: #eee; border: none;">
+					<p:schedule id="schedule" />
+				</p:panel>
+
+				
+				<p:panel styleClass="standard-content-panel" style="font-size: 1em;">
+					<p:panel header="Skuska">
+					dsfslfkdsjfd dkfjdkfldfkdf dljkfkdlfd dklfj 
+					</p:panel>
+				</p:panel>
+		</h:form>
+		
+	</ui:define>
+
+</ui:composition>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="html-head-title">#{msg['header.login']}</ui:define>
+	
+	<ui:define name="breadcrumbs">#{msg['header.login']}</ui:define>
+
+	<ui:define name="content">
+	     
+			<h:form id="loginForm">
+				
+<!-- 				<p:tabView style="width: 500px; margin: 50px auto;"> -->
+					
+<!-- 					<p:tab title="#{msg['login.jlab']}"> -->
+						
+<!-- 					</p:tab> -->
+					
+<!-- 					<p:tab title="#{msg['login.ldap']}"> -->
+						
+<!-- 					</p:tab> -->
+					
+<!-- 				</p:tabView> -->
+				
+
+			<p:panel style="width: 500px; margin: 40px auto; font-size: 1em;">
+				<p:messages />
+				<h:panelGrid columns="2" border="0" style="width: 100%;">
+
+					<p:outputLabel for="username"
+						value="#{msg['login.label.username']}" />
+					<p:inputText style="width: 100%;" value="#{loginBean.username}"
+						id="username" required="true" />
+
+					<p:outputLabel for="password"
+						value="#{msg['login.label.password']}" />
+					<p:password style="width: 100%;" value="#{loginBean.password}"
+						id="password" required="true" />	
+					
+					<h:panelGroup />
+					<h:outputText style="font-size: 0.8em;" value="polia označené hviezdičkou (*) sú povinné"/>
+					
+					<h:panelGroup />
+					<p:commandButton update="@form" id="loginButton"
+						value="#{msg['login.submitButton']}" 
+						action="#{loginBean.submit}"
+						ajax="false" 
+						style="margin-top: 10px;"/>
+				</h:panelGrid>
+			</p:panel>
+
+		</h:form>
+		
+	</ui:define>
+
+</ui:composition>
+</html>

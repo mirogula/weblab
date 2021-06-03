@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel= "stylesheet" href="explorer_files/dtree.css" type="text/css" />
+    <script type="text/javascript" src="explorer_files/dtree.js"></script>
+    <script type="text/javascript" src="slwebview.js"></script>
+    <script type="text/javascript" src="id_mapping.js"></script>
+    <title>Simulink Web View</title>
+  </head>
+  <body leftmargin="3"  topmargin="0" marginwidth="3" marginheight="3">
+    <script type="text/javascript">
+<!--
+var explorer = new dTree('explorer');
+explorer.add(0,-1,"Simulink Root","javascript:toggleExpose();","Simulink Root","vrmaglev_slwebview_model");
+explorer.add(1,0,"vrmaglev","javascript:changeSysByName('vrmaglev',1);","vrmaglev","vrmaglev_slwebview_model","explorer_files/SimulinkModelIcon.gif","explorer_files/SimulinkModelIcon.gif",1);
+explorer.add(2,1,"Coordinates Transformation","javascript:changeSysByName('vrmaglev/Coordinates Transformation',1);","vrmaglev/Coordinates Transformation","vrmaglev_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(3,1,"Discrete-Time PID","javascript:changeSysByName('vrmaglev/Discrete-Time PID',1);","vrmaglev/Discrete-Time PID","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(4,1,"Magnetic Levitation Plant Model","javascript:changeSysByName('vrmaglev/Magnetic Levitation Plant Model',1);","vrmaglev/Magnetic Levitation Plant Model","vrmaglev_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(5,1,"Switch Setpoint Selection Method Virtual Reality / Generator","javascript:changeSysByName('vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator',1);","vrmaglev/Switch Setpoint Selection Method Virtual Reality // Generator","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(6,1,"VR Sensor Reader","javascript:changeSysByName('vrmaglev/VR Sensor Reader',1);","vrmaglev/VR Sensor Reader","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(7,3,"Discrete-Time Limited Integrator","javascript:changeSysByName('vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator',1);","vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(8,4,"AD converter and Position sensor","javascript:changeSysByName('vrmaglev/Magnetic Levitation Plant Model/AD converter and Position sensor',1);","vrmaglev/Magnetic Levitation Plant Model/AD converter and Position sensor","vrmaglev_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(9,4,"D/A Converter","javascript:changeSysByName('vrmaglev/Magnetic Levitation Plant Model/D//A Converter',1);","vrmaglev/Magnetic Levitation Plant Model/D//A Converter","vrmaglev_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(10,4,"Limits","javascript:changeSysByName('vrmaglev/Magnetic Levitation Plant Model/Limits',1);","vrmaglev/Magnetic Levitation Plant Model/Limits","vrmaglev_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(11,0,"vrlib","","vrlib","vrmaglev_slwebview_model","explorer_files/SimulinkModelIcon.gif","explorer_files/SimulinkModelIcon.gif",1);
+explorer.add(12,11,"VR Placeholder","javascript:changeSysByName('vrlib/VR Placeholder',1);","vrlib/VR Placeholder","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(13,11,"VR Signal Expander","javascript:changeSysByName('vrlib/VR Signal Expander',1);","vrlib/VR Signal Expander","vrmaglev_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+var svgState = getSvgState(gHomeSys);
+svgState.tree = explorer;
+document.write(svgState.tree);
+//-->
+    </script>
+  </body>
+</html>
+

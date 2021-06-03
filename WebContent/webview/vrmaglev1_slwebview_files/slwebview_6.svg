@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.vrmaglev/VR Sensor Reader' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='14.5 25 286 42' viewBox='14.5 25 286 42'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.vrmaglev/VR Sensor Reader'>VR Sensor Reader</title>
+<rect id='background.vrmaglev/VR Sensor Reader' x='-4076.5' y='-4066' width='8448.5' height='8194' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/From VR' class='proptable' pointer-events='none' extent_Height='164' extent_Width='146' preferred_X='300.5' preferred_Y='38'>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='90' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='90' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='90' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='90' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='90' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='90' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='90' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='90' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='90' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='90' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='90' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='90' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='90' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='90' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/From VR' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/From VR'>From VR</title>
+<g><rect x='260' y='33' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='260' y='33' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='254.5' y='59' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>From VR</text>
+</g>
+</g>
+<g><g><text stroke='none' x='272' y='44.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_54)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/vrextin' class='proptable' pointer-events='none' extent_Height='43' extent_Width='304' preferred_X='140' preferred_Y='35'>
+  <rect x='0' y='0' width='304' height='43' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>FunctionName</text>
+  <text stroke='none' x='86' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>vrextin</text>
+  <rect x='0' y='19' width='304' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Parameters</text>
+  <text stroke='none' x='86' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Ts, &apos;maglev.wrl&apos;, &apos;Grab_Sensor.translation_changed&apos;</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SFunctionModules</text>
+  <text stroke='none' x='86' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>&apos;&apos;</text>
+  <rect x='0' y='0' width='304' height='43' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/vrextin' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/vrextin'>vrextin</title>
+<g><rect x='85' y='30' width='50' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='94.5' y='62' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>vrextin</text>
+</g>
+</g>
+<g><g><text stroke='none' x='94.5' y='44.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_55)' font-family='Helvetica'>vrextin</text>
+</g>
+</g>
+<g><rect x='85' y='30' width='50' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/value_holder' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='221' preferred_Y='35'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[0  0  0]</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/value_holder' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/value_holder'>value_holder</title>
+<g><rect x='160' y='30' width='50' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='154' y='62' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>value_holder</text>
+</g>
+</g>
+<g><g><text stroke='none' x='164' y='44' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_56)' font-family='Courier New'>(0 0 0)</text>
+</g>
+</g>
+<g><rect x='160' y='30' width='50' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/Constant' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='65.5' preferred_Y='35'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0.5</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/Constant' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/Constant'>Constant</title>
+<g><rect x='30' y='30' width='20' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='19.5' y='62' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Constant</text>
+</g>
+</g>
+<g><g><text stroke='none' x='32.5' y='44.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_57)' font-family='Helvetica'>0.5</text>
+</g>
+</g>
+<g><rect x='30' y='30' width='20' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/_uniq_id_49' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='265' preferred_Y='40'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/_uniq_id_49' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/_uniq_id_49'>line</title>
+<line x1='210' y1='40' x2='215' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='255' y1='40' x2='245' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='250,35 250,45 260,40 250,35 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='213,40 215,40 215,40 245,40 247,40 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/VR Sensor Reader/_uniq_id_50' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='90' preferred_Y='40'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/VR Sensor Reader/_uniq_id_50' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/VR Sensor Reader/_uniq_id_50'>line</title>
+<line x1='50' y1='40' x2='55' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='80' y1='40' x2='70' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='75,35 75,45 85,40 75,35 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='53,40 55,40 70,40 72,40 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_54'><rect x='260' y='33' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_55'><rect x='85' y='30' width='50' height='20' /></clipPath>
+  <clipPath id='clip_rect_56'><rect x='160' y='30' width='50' height='20' /></clipPath>
+  <clipPath id='clip_rect_57'><rect x='30' y='30' width='20' height='20' /></clipPath>
+</defs>
+</svg>

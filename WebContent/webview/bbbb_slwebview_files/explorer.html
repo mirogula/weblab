@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel= "stylesheet" href="explorer_files/dtree.css" type="text/css" />
+    <script type="text/javascript" src="explorer_files/dtree.js"></script>
+    <script type="text/javascript" src="slwebview.js"></script>
+    <script type="text/javascript" src="id_mapping.js"></script>
+    <title>Simulink Web View</title>
+  </head>
+  <body leftmargin="3"  topmargin="0" marginwidth="3" marginheight="3">
+    <script type="text/javascript">
+<!--
+var explorer = new dTree('explorer');
+explorer.add(0,-1,"Simulink Root","javascript:toggleExpose();","Simulink Root","bbbb_slwebview_model");
+explorer.add(1,0,"bbbb","javascript:changeSysByName('bbbb',1);","bbbb","bbbb_slwebview_model","explorer_files/SimulinkModelIcon.gif","explorer_files/SimulinkModelIcon.gif",1);
+explorer.add(2,1,"Thermal Plant  I/O Interface","javascript:changeSysByName('bbbb/Thermal Plant  I//O Interface',1);","bbbb/Thermal Plant  I//O Interface","bbbb_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+var svgState = getSvgState(gHomeSys);
+svgState.tree = explorer;
+document.write(svgState.tree);
+//-->
+    </script>
+  </body>
+</html>
+

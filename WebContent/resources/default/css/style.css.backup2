@@ -1,0 +1,215 @@
+body {
+	margin: 0px;
+	padding: 0;
+	color: #616161;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+}
+
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1em;
+	margin-top:20px;
+}
+
+ul {
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+#main-container {
+	min-height: 100%;
+	position: absolute;
+	min-width: 600px;
+	width: 100%;
+}
+
+/* Header */
+#header {
+    padding: 4px 0px;
+    /* height: 75px; */
+    height: 60px;
+    position: relative;
+}
+
+/*  */
+#header .header-title {
+	font-size: 50px;
+	display: inline;
+	padding-left: 15px;
+}
+
+#header #languages {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	overflow: hidden;
+}
+
+#header #languages ul {
+	list-style: none;
+}
+
+#header #languages ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+#header #account-info {
+	position: absolute;
+	top: 45px;
+	right: 4px;
+	overflow: hidden;
+}
+
+#header #account-info .account-info-link {
+	margin: 0 12px;
+	font-size: 13px !important;
+}
+
+
+/* Page */
+#page {
+	/* padding: 10px 0px; */
+	padding: 10px 0px 50px 0px;
+	background: #FFFFFF;
+	/* min-width: 600px; */
+}
+
+/* Content */
+#content-wrapper {
+	margin-left: 225px;
+	min-width: 600px;
+}
+
+/* 
+#content {
+	width: 75%;
+    float:left;
+}
+*/
+
+#content {
+	/* width: 100%; */
+	margin-right: 15px;
+	float: left;
+	
+	
+/* 	margin-left: 215px; */
+	margin-left: 15px;
+}
+
+
+#sidebar {
+	/* float: left; */
+	
+	/* width: 25%; */
+	width: 190px;
+	/* width: 15%; */
+	/* min-width: 150px; */
+	/* padding: 0 10px; */
+	/* margin-left: -1px; */
+    /* overflow: hidden; */
+    
+    /* min-height: 560px; */
+    
+    
+    
+    position: absolute;
+    left: 10px;
+}
+
+
+/* Footer */
+#footer {
+	/* height: 70px; */
+	height: 25px;
+	/* margin: 0 auto; */
+	/* padding: 0 20px; */
+    /* font-size: 14px; */
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+/* 
+#footer p {
+	margin: 0;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+*/
+
+
+#footer .copyright {
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.dp-xml {
+    width:1000px;
+}
+
+.ui-themeswitcher a.ui-selectonemenu-label-container {
+    text-decoration: none !important;
+}
+
+.ui-widget {
+    font-size: 12px !important;
+}
+
+
+.no-border-grid tr, .no-border-grid td {
+	border: none;
+	border-style: hidden !important;
+}
+
+
+#menubar {
+	
+}
+
+.menuitem .ui-menuitem-text {
+	font-size: 14px !important;
+	font-weight: bold;
+}
+
+.ui-menubar .ui-menuitem-link {
+	padding-right: 15px !important;
+}
+

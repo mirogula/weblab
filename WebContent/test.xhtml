@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<f:view contentType="text/html" locale="#{languageBean.locale}">
+		<h:head>
+			<f:facet name="first">
+				<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+				<title>primefaces and jsf2 test</title>
+			</f:facet>
+			<h:outputStylesheet library="test1" name="css/style.css" />
+			<style type="text/css">
+			
+			</style>
+		</h:head>
+
+		<h:body>
+
+			<div id="header" class="ui-widget ui-widget-header">
+			
+				<p class="weblab-title">WebLab</p>
+				<div id="languages" class="ui-widget">
+					<h:form>
+						<ul>
+							<li>
+								<p:commandLink actionListener="#{languageBean.changeLocale('en')}" update="@all">
+									<p:graphicImage alt="English version" title="English version" library="test1" name="img/flags/gb.png" />
+								</p:commandLink>
+							</li>
+							<li>
+								<p:commandLink actionListener="#{languageBean.changeLocale('sk')}" update="@all">
+									<p:graphicImage alt="Slovenská verzia" title="Slovenská verzia" library="test1" name="img/flags/sk.png" />
+								</p:commandLink>
+							</li>
+						</ul>
+					</h:form>
+				</div>
+				<div id="account-info">
+					<h:form>
+						<p:commandLink styleClass="account-info-link" rendered="#{empty request.remoteUser}">
+							<h:outputText value="Login"/>
+						</p:commandLink>
+						<p:commandLink styleClass="account-info-link" rendered="#{empty request.remoteUser}">
+							<h:outputText value="Sign in"/>
+						</p:commandLink>
+						<p:commandLink styleClass="account-info-link" rendered="#{not empty request.remoteUser}">
+							<h:outputText value="#{request.remoteUser}"/>
+						</p:commandLink>
+						<p:commandLink styleClass="account-info-link" rendered="#{not empty request.remoteUser}">
+							<h:outputText value="Log out"/>
+						</p:commandLink>
+					</h:form>
+				</div>
+				
+			</div>
+
+		  	<div id="page" class="ui-widget">
+		  	
+		  		<!-- <div id="sidebar" class="ui-widget-content ui-corner-bottom ui-helper-clearfix ui-shadow"> -->
+			  	<div id="sidebar" class="ui-helper-clearfix">
+			  		<h:form>
+			  			<p:menu style="width: 100%;">
+			  				<p:menuitem value="test1" />
+			  				<p:menuitem value="test2" />
+			  				<p:menuitem value="test3" />
+			  				<p:menuitem value="test4" />
+			  				<p:menuitem value="test5" />
+			  				<p:menuitem value="looo ooong very loooo ooooo ooooong test" />
+			  				<p:menuitem value="#{msg['realEquipment']}" />
+			  			</p:menu>
+			  		</h:form>
+			  	</div>
+			  	
+			  	<div id="content-wrapper">
+			  	<div id="content">
+			  		<h:form>
+						<p:dataTable var="testTable" value="#{testBean.allTests}">
+							<p:column headerText="ID">
+								<h:outputText value="#{testTable.id}"/>
+							</p:column>
+							<p:column headerText="User Name">
+								<h:outputText value="#{testTable.userName}"/>
+							</p:column>
+							<p:column headerText="Password">
+								<h:outputText value="#{testTable.password}"/>
+							</p:column>
+							<p:column headerText="Email">
+								<h:outputText value="#{testTable.email}"/>
+							</p:column>
+											
+						</p:dataTable>
+								
+					 	<!-- 
+						<p:layout fullPage="true" style="min-width:400px;min-height:200px;">
+							<p:layoutUnit position="north" resizable="false">
+								 
+									<h1>test</h1>
+		
+								  
+								 <h:outputText style="font-size: 100px;">test</h:outputText> 
+								<h1>test</h1>
+								
+							</p:layoutUnit>				
+							<p:layoutUnit position="west" resizable="false">
+							</p:layoutUnit>
+							<p:layoutUnit position="center" resizable="false">
+		
+							
+							</p:layoutUnit>
+							<p:layoutUnit position="south" resizable="false">
+							</p:layoutUnit>
+						</p:layout>
+					 	 -->
+						
+					</h:form>
+			  	</div>
+			  	</div>
+			  	<div style="clear: both;"></div>
+		  	
+		  	
+			</div>
+		  	
+			
+			<div id="footer" class="ui-widget ui-widget-header">
+				<p class="copyright">Author: Miroslav Gula</p>
+			</div>
+		</h:body>
+	</f:view>
+
+</html>

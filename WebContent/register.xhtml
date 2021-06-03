@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="content">
+
+	    <h:form id="registerForm">
+			<p:panel style="width: 400px; margin: 0 auto;">
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['header.signup']}" />
+				</f:facet>
+				<p:messages />
+				<h:panelGrid columns="2" styleClass="no-border-grid" style="width: 100%;">
+
+					<p:outputLabel for="username" value="#{msg['signup.label.username']}" />
+					<p:inputText style="width: 100%" value="#{registerBean.user.username}" id="username" required="true" />
+
+					<p:outputLabel for="password" value="#{msg['signup.label.password']}" />
+					<p:password style="width: 100%" value="#{registerBean.user.password}" id="password" required="true" />
+
+					<p:outputLabel for="email" value="#{msg['signup.label.email']}" />
+					<p:inputText style="width: 100%" value="#{registerBean.user.email}" id="email" required="true" />
+
+					<h:panelGroup />
+					<p:commandButton update="@form" id="signupButton" value="#{msg['signup.submitButton']}" action="#{registerBean.submit}" />
+				</h:panelGrid>
+			</p:panel>
+	    </h:form>
+		
+	</ui:define>
+
+	</ui:composition>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	
+	<f:metadata>
+		<f:viewParam id="text" name="text" value="#{testBean.text}" />
+		<f:viewParam id="text1" name="text1" value="#{testBean.text1}" />
+		<f:event listener="#{testBean.init()}" type="preRenderView" />
+	</f:metadata>
+	
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+	
+		<ui:define name="content">
+		     
+				<h:form id="testForm1">
+					<p:messages id="messages" />
+					<p:inputText id="inputText" value="#{testBean.text}" />
+					<br />
+					<p:inputText id="inputText1" value="#{testBean.text1}" />
+					<br />
+					
+					 
+					<p:commandButton value="submit (p:commandButton)" action="page2?faces-redirect=true&amp;includeViewParams=true" ajax="false">
+						<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					</p:commandButton>
+					
+					<br />
+					 
+					 <!-- 
+					 <h:link value="submit" outcome="page2?faces-redirect=true&amp;includeViewParams=true" includeViewParams="true">
+					 	<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					 </h:link>
+					  -->
+					 
+					 <p:button value="submit2 (p:button)" outcome="page2" includeViewParams="true">
+					 	<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					 </p:button>
+					 
+					 <br />
+					 <br />
+					 
+					 
+					 <h:link value="submit (h:link)" outcome="page2" style="font-weight: bold;">
+					 	<f:param name="text" value="#{testBean.text}" />
+						<f:param name="text1" value="#{testBean.text1}" />
+					 </h:link>
+					 
+					 <br />
+					 <br />
+					 
+					 <p:commandButton value="submit (p:commandButton), test action with ajax" action="#{testBean.testAction()}" />
+					 
+					 <br />
+					 <br />
+					 
+					 <p:commandButton value="submit (p:commandButton), test actionListener with ajax" actionListener="#{testBean.testActionListener}" />
+					
+										 
+					 <br />
+					 <br />
+					 
+					 <p:commandButton value="submit (p:commandButton), test action without ajax" action="#{testBean.testAction()}" ajax="false" />
+					 
+					 <br />
+					 <br />
+					 
+					 <p:commandButton value="submit (p:commandButton), test actionListener without ajax" actionListener="#{testBean.testActionListener}" ajax="false" />
+					
+					
+						 
+				</h:form>
+			
+		</ui:define>
+	
+	</ui:composition>
+</html>

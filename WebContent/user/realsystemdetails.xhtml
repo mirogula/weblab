@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+ 		<f:metadata>  
+    		<f:event type="preRenderView" listener="#{realSystemDetailsBean.onLoad}" />  
+    	</f:metadata> 
+
+	<ui:define name="content">
+
+		<h:form id="addRealSystemForm">
+		
+			<p:panel style="width: 450px;">
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['addrealsystem.info']}" />
+				</f:facet>
+				<p:messages layout="table" />
+				<p:panelGrid columns="2" styleClass="no-border-grid">
+
+					<p:outputLabel for="name" value="#{msg['addrealsystem.info.name']}" />
+					<h:outputText style="width: 170px;"  value="#{realSystemDetailsBean.realSystem.name}" id="name" />
+
+					<p:outputLabel for="url" value="#{msg['addrealsystem.info.url']}" />
+					<h:outputText style="width: 290px;" value="#{realSystemDetailsBean.realSystem.urlAddress}" id="url" />
+					 
+					
+				</p:panelGrid>
+			</p:panel>
+
+			<br />
+	
+			<p:panel>
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['addrealsystem.description']}" />
+				</f:facet>
+				<h:outputText escape="false" value="#{realSystemDetailsBean.description}" />	
+
+			</p:panel>
+	
+			
+  
+  		<br />
+			
+			<p:panel>
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['realsystemdetails.pictures']}" />
+				</f:facet>
+				
+					<p:galleria id="galeria" value="#{realSystemDetailsBean.realSystem.realSystemPictures}" var="picture" panelWidth="500" panelHeight="313" showCaption="false" autoPlay="false" >
+						<p:graphicImage value="/pictures/#{picture.name}" width="500" height="300" />
+					</p:galleria>
+
+			</p:panel>
+			
+			  		<br />
+			
+			<p:panel>
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['realsystemdetails.schemas']}" />
+				</f:facet>
+				
+				<p:dataList value="#{ealSystemDetailsBean.realSystem.simulinkSchemas}" var="schema" itemType="disc">  
+    				
+				</p:dataList>  
+				
+				<!-- 
+				<p:commandButton value="#{msg['realsystemdetails.newschema']}" action="/admin/addschema.xhtml?faces-redirect=true" rendered="#{request.isUserInRole('admin')}" ajax="false">
+					<f:param name="realSystemId" value="#{realSystemDetailsBean.realSystem.id}" />
+				</p:commandButton>
+				 -->
+				<br />
+				<h:link style="font-weight: bold;" outcome="/admin/addschema" value="#{msg['realsystemdetails.newschema']}">
+					<f:param name="realSystemId" value="#{realSystemDetailsBean.realSystem.id}"/>
+				</h:link>
+			</p:panel>
+
+		
+		</h:form>
+		
+	</ui:define>
+
+</ui:composition>
+</html>

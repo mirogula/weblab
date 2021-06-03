@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='54.5 65 659 182' viewBox='54.5 65 659 182'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator'>Discrete-Time Limited Integrator</title>
+<rect id='background.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator' x='-4036.5' y='-4026' width='8781.5' height='8294' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/out_1' class='proptable' pointer-events='none' extent_Height='164' extent_Width='146' preferred_X='713.5' preferred_Y='155'>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='90' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='90' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='90' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='90' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='90' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='90' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='90' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='90' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='90' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='90' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='90' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='90' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='90' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='90' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='146' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/out_1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/out_1'>out_1</title>
+<g><rect x='685' y='150' width='20' height='20' rx='20' ry='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='685' y='150' width='20' height='20' rx='20' ry='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='681.5' y='182' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>out_1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='692' y='164.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_58)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Unit Delay' class='proptable' pointer-events='none' extent_Height='54' extent_Width='172' preferred_X='660' preferred_Y='155'>
+  <rect x='0' y='0' width='172' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>X0</text>
+  <text stroke='none' x='148' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>X0</text>
+  <rect x='0' y='19' width='172' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='148' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Ts</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>StateMustResolveToSignalObject</text>
+  <text stroke='none' x='148' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='172' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStateStorageClass</text>
+  <text stroke='none' x='148' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='172' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Unit Delay' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Unit Delay'>Unit Delay</title>
+<g><rect x='605' y='150' width='50' height='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='605.5' y='182' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Unit Delay</text>
+</g>
+</g>
+<g><g><text stroke='none' x='623' y='164.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_59)' font-family='Helvetica'>1/z</text>
+</g>
+</g>
+<g><rect x='605' y='150' width='50' height='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch1' class='proptable' pointer-events='none' extent_Height='142' extent_Width='254' preferred_X='560' preferred_Y='115'>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Criteria</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u2 >= Threshold</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Threshold</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0.5</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='129' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AllowDiffInputSizes</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch1'>Switch1</title>
+<g><rect x='520' y='110' width='35' height='100' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><line x1='534' y1='195' x2='534' y2='198' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='198' x2='536' y2='198' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='536' y1='198' x2='536' y2='192' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='536' y1='192' x2='534' y2='192' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='192' x2='534' y2='195' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='195' x2='520' y2='195' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='125' x2='534' y2='128' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='128' x2='536' y2='128' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='536' y1='128' x2='536' y2='122' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='536' y1='122' x2='534' y2='122' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='122' x2='534' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='534' y1='125' x2='520' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='535' y1='125' x2='548' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='548' y1='160' x2='555' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='530' y1='170' x2='530' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='530' y1='150' x2='530' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+<line x1='530' y1='160' x2='520' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_60)' />
+</g>
+<g><rect x='520' y='110' width='35' height='100' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch' class='proptable' pointer-events='none' extent_Height='142' extent_Width='254' preferred_X='345' preferred_Y='104'>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Criteria</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>u2 >= Threshold</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Threshold</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0.5</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='129' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AllowDiffInputSizes</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='254' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Switch'>Switch</title>
+<g><rect x='315' y='99' width='25' height='102' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><line x1='325' y1='186' x2='325' y2='189' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='189' x2='326' y2='189' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='326' y1='189' x2='326' y2='183' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='326' y1='183' x2='325' y2='183' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='183' x2='325' y2='186' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='186' x2='315' y2='186' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='115' x2='325' y2='118' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='118' x2='326' y2='118' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='326' y1='118' x2='326' y2='112' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='326' y1='112' x2='325' y2='112' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='112' x2='325' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='325' y1='115' x2='315' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='326' y1='115' x2='335' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='335' y1='150' x2='340' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='322' y1='161' x2='322' y2='140' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='322' y1='140' x2='322' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+<line x1='322' y1='150' x2='315' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_61)' />
+</g>
+<g><rect x='315' y='99' width='25' height='102' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Sum' class='proptable' pointer-events='none' extent_Height='131' extent_Width='254' preferred_X='200' preferred_Y='100'>
+  <rect x='0' y='0' width='254' height='131' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconShape</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>rectangular</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inputs</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>++</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AccumDataTypeStr</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as first input</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='254' height='131' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Sum' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Sum'>Sum</title>
+<g><rect x='170' y='95' width='25' height='40' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><line x1='173' y1='105' x2='177' y2='105' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_62)' />
+<line x1='175' y1='103' x2='175' y2='107' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_62)' />
+<line x1='173' y1='125' x2='177' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_62)' />
+<line x1='175' y1='123' x2='175' y2='127' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_62)' />
+</g>
+<g><rect x='170' y='95' width='25' height='40' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator1' class='proptable' pointer-events='none' extent_Height='65' extent_Width='335' preferred_X='485' preferred_Y='147'>
+  <rect x='0' y='0' width='335' height='65' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Operator</text>
+  <text stroke='none' x='78' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>></text>
+  <rect x='0' y='19' width='335' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='78' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='78' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Logical (see Configuration Parameters: Optimization)</text>
+  <rect x='0' y='41' width='335' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='78' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='78' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='335' height='65' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator1'>Relational operator1</title>
+<g><rect x='450' y='142' width='30' height='31' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><g><text stroke='none' x='462' y='161.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_63)' font-family='Helvetica'>></text>
+</g>
+</g>
+<g><rect x='450' y='142' width='30' height='31' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator' class='proptable' pointer-events='none' extent_Height='65' extent_Width='335' preferred_X='275' preferred_Y='136'>
+  <rect x='0' y='0' width='335' height='65' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Operator</text>
+  <text stroke='none' x='78' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>&lt;</text>
+  <rect x='0' y='19' width='335' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='78' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='78' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Logical (see Configuration Parameters: Optimization)</text>
+  <rect x='0' y='41' width='335' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='78' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='78' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='335' height='65' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Relational operator'>Relational operator</title>
+<g><rect x='245' y='131' width='25' height='33' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><g><text stroke='none' x='254' y='151.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_64)' font-family='Helvetica'>&lt;</text>
+</g>
+</g>
+<g><rect x='245' y='131' width='25' height='33' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Gain' class='proptable' pointer-events='none' extent_Height='142' extent_Width='221' preferred_X='145' preferred_Y='111'>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Ts</text>
+  <rect x='0' y='19' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Multiplication</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Element-wise(K.*u)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMin</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='41' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMax</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamDataTypeStr</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <rect x='0' y='63' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='85' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Gain' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Gain'>Gain</title>
+<g><polygon points='110,106 140,125 140,125 110,144 110,106 ' stroke='none' fill='rgb(100%,100%,100%)' />
+<polyline points='110,106 140,125 140,125 110,144 110,106 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<g><text stroke='none' x='113.5' y='156' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+</g>
+</g>
+<g><g><text stroke='none' x='114' y='129.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_65)' font-family='Helvetica'>Ts</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant1' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='215' preferred_Y='223'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>lower_limit</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant1'>Constant1</title>
+<g><rect x='140' y='218' width='70' height='24' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><g><text stroke='none' x='149' y='234.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_66)' font-family='Helvetica'>lower_limit</text>
+</g>
+</g>
+<g><rect x='140' y='218' width='70' height='24' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant' class='proptable' pointer-events='none' extent_Height='98' extent_Width='238' preferred_X='215' preferred_Y='179'>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Value</text>
+  <text stroke='none' x='81' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>upper_limit</text>
+  <rect x='0' y='19' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VectorParams1D</text>
+  <text stroke='none' x='81' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='81' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sample based</text>
+  <rect x='0' y='41' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='81' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='81' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='81' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit from &apos;Constant value&apos;</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='81' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='238' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='81' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='0' width='238' height='98' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/Constant'>Constant</title>
+<g><rect x='140' y='174' width='70' height='22' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><g><text stroke='none' x='148' y='189.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_67)' font-family='Helvetica'>upper_limit</text>
+</g>
+</g>
+<g><rect x='140' y='174' width='70' height='22' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/in_1' class='proptable' pointer-events='none' extent_Height='186' extent_Width='195' preferred_X='85.5' preferred_Y='120'>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='170' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='173' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='181' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='186' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/in_1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/in_1'>in_1</title>
+<g><rect x='60' y='115' width='20' height='20' rx='20' ry='20' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='60' y='115' width='20' height='20' rx='20' ry='20' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='59.5' y='147' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>in_1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='67' y='129.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_68)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_51' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='690' preferred_Y='75'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_51' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_51'>line</title>
+<line x1='165' y1='105' x2='155' y2='105' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='160,100 160,110 170,105 160,100 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='670,160 670,70 150,70 150,105 155,105 157,105 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='680' y1='160' x2='670' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='675,155 675,165 685,160 675,155 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='670,160 670,160 672,160 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='655' y1='160' x2='660' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='658,160 660,160 670,160 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='669' y='159' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='669' y='159' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_52' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='610' preferred_Y='160'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_52' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_52'>line</title>
+<line x1='555' y1='160' x2='560' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='600' y1='160' x2='590' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='595,155 595,165 605,160 595,155 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='558,160 560,160 590,160 592,160 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_53' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='525' preferred_Y='165'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_53' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_53'>line</title>
+<line x1='515' y1='195' x2='505' y2='195' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='510,190 510,200 520,195 510,190 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='430,195 505,195 507,195 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='445' y1='165' x2='435' y2='165' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='440,160 440,170 450,165 440,160 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='430,195 430,165 435,165 437,165 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='210' y1='230' x2='215' y2='230' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='213,230 215,230 430,230 430,195 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='429' y='194' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='429' y='194' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_54' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='525' preferred_Y='160'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_54' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_54'>line</title>
+<line x1='480' y1='160' x2='485' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='515' y1='160' x2='505' y2='160' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='510,155 510,165 520,160 510,155 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='483,160 485,160 505,160 507,160 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_55' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='525' preferred_Y='125'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_55' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_55'>line</title>
+<line x1='515' y1='125' x2='505' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='510,120 510,130 520,125 510,120 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='380,150 380,125 505,125 507,125 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='445' y1='150' x2='435' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='440,145 440,155 450,150 440,145 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='380,150 435,150 437,150 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='340' y1='150' x2='345' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='343,150 345,150 380,150 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='379' y='149' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='379' y='149' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_56' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='320' preferred_Y='155'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_56' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_56'>line</title>
+<line x1='240' y1='155' x2='230' y2='155' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='235,150 235,160 245,155 235,150 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='215,185 220,185 220,155 230,155 232,155 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='310' y1='185' x2='300' y2='185' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='305,180 305,190 315,185 305,180 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='215,185 300,185 302,185 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='210' y1='185' x2='215' y2='185' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='213,185 215,185 215,185 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='214' y='184' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='214' y='184' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_57' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='175' preferred_Y='125'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_57' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_57'>line</title>
+<line x1='140' y1='125' x2='145' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='165' y1='125' x2='155' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='160,120 160,130 170,125 160,120 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='143,125 145,125 155,125 157,125 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_58' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='320' preferred_Y='115'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_58' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_58'>line</title>
+<line x1='240' y1='140' x2='230' y2='140' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='235,135 235,145 245,140 235,135 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='220,115 220,140 230,140 232,140 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='310' y1='115' x2='300' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='305,110 305,120 315,115 305,110 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='220,115 300,115 302,115 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='195' y1='115' x2='200' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='198,115 200,115 220,115 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='219' y='114' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='219' y='114' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_59' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='320' preferred_Y='150'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_59' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_59'>line</title>
+<line x1='270' y1='150' x2='275' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='310' y1='150' x2='300' y2='150' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='305,145 305,155 315,150 305,145 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='273,150 275,150 300,150 302,150 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_60' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='115' preferred_Y='125'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_60' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.vrmaglev/Discrete-Time PID/Discrete-Time Limited Integrator/_uniq_id_60'>line</title>
+<line x1='80' y1='125' x2='85' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='105' y1='125' x2='95' y2='125' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='100,120 100,130 110,125 100,120 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='83,125 85,125 95,125 97,125 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_58'><rect x='685' y='150' width='20' height='20' /></clipPath>
+  <clipPath id='clip_rect_59'><rect x='605' y='150' width='50' height='20' /></clipPath>
+  <clipPath id='clip_rect_60'><rect x='520' y='110' width='35' height='100' /></clipPath>
+  <clipPath id='clip_rect_61'><rect x='315' y='99' width='25' height='102' /></clipPath>
+  <clipPath id='clip_rect_62'><rect x='170' y='95' width='25' height='40' /></clipPath>
+  <clipPath id='clip_rect_63'><rect x='450' y='142' width='30' height='31' /></clipPath>
+  <clipPath id='clip_rect_64'><rect x='245' y='131' width='25' height='33' /></clipPath>
+  <clipPath id='clip_rect_65'><rect x='110' y='106' width='30' height='38' /></clipPath>
+  <clipPath id='clip_rect_66'><rect x='140' y='218' width='70' height='24' /></clipPath>
+  <clipPath id='clip_rect_67'><rect x='140' y='174' width='70' height='22' /></clipPath>
+  <clipPath id='clip_rect_68'><rect x='60' y='115' width='20' height='20' /></clipPath>
+</defs>
+</svg>

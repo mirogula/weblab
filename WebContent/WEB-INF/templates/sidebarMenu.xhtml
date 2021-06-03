@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<f:view>
+	  	
+  		<h:form id="sidebarMenuForm">
+  			<p:menu style="width: 95%;">
+  				<p:menuitem value="#{msg['sidebar.menu.about']}" url="/index.xhtml" />
+  				<p:menuitem value="#{msg['sidebar.menu.newreservation']}" url="/user/newreservation.xhtml" 
+  					rendered="#{request.isUserInRole('user')}" />
+  				<p:menuitem value="#{msg['sidebar.menu.myreservations']}" url="/user/myreservations.xhtml" 
+  					rendered="#{request.isUserInRole('user')}" />
+  				<p:menuitem value="#{msg['sidebar.menu.listrealsystems']}" url="/user/listrealsystems.xhtml"
+  					rendered="#{request.isUserInRole('user')}" />
+  				<p:menuitem value="#{msg['sidebar.menu.addrealsystem']}" url="/admin/addrealsystem.xhtml"
+  					rendered="#{request.isUserInRole('admin')}" />
+  				<p:menuitem value="#{msg['sidebar.menu.addadmin']}" url="/admin/addadmin.xhtml"
+  					rendered="#{request.isUserInRole('admin')}" />
+  				<p:menuitem value="#{msg['sidebar.menu.removeadmin']}" url="/superadmin/removeadmin.xhtml"
+  					rendered="#{request.isUserInRole('superadmin')}" />
+  			</p:menu>
+  		</h:form>
+
+	</f:view>
+</html>

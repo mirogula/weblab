@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<f:view contentType="text/html" locale="#{languageBean.locale}">
+
+		<h:head>
+			<f:facet name="first">
+				<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+				<title><ui:insert name="htmlHeadTitle">WebLab</ui:insert></title>
+			</f:facet>
+			<h:outputStylesheet library="default" name="css/style.css" />
+			<h:outputScript library="default" name="js/primefaces_locale_sk.js" />
+			<!-- 
+			<ui:insert name="htmlHeadCustomCssStyle">
+				<style type="text/css">
+				</style>
+			</ui:insert>
+			-->
+		</h:head>
+
+		<h:body>
+			<div id="main-container">
+				<div id="header" class="ui-widget ui-widget-header">
+					<ui:include src="/WEB-INF/templates/header.xhtml" />
+					<ui:include src="/WEB-INF/templates/menubar.xhtml" />
+				</div>
+	
+				<ui:insert name="pageContent">
+				  	<div id="page" class="ui-widget">
+<!-- 				  		<ui:insert name="sidebarMenu">
+				  			<div id="sidebar" class="ui-helper-clearfix">
+								<ui:include src="/WEB-INF/templates/sidebarMenu.xhtml" />
+							</div>
+					  	</ui:insert> -->
+					  	
+	
+					  	<div id="content" class="ui-widget-content" style="border: none;">
+					  		<ui:insert name="content">
+					  		
+					  		</ui:insert>
+					  	</div>
+	
+					  	<div style="clear: both;"></div>
+					</div>
+				</ui:insert>
+			  	
+				<ui:insert name="footer">
+					<div id="footer" class="ui-widget ui-widget-header">
+						<ui:include src="/WEB-INF/templates/footer.xhtml" />
+					</div>
+				</ui:insert>	
+			</div>				
+		</h:body>
+	</f:view>
+
+</html>

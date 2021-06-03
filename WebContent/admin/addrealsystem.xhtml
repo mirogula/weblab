@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+
+	<f:metadata>  
+       <f:event type="preRenderView" listener="#{addRealSystemBean.onLoad}" />  
+    </f:metadata>  
+
+	<ui:define name="content">
+
+		<h:form id="addRealSystemForm" enctype="multipart/form-data">
+		
+			<p:panel style="width: 450px;">
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['addrealsystem.info']}" />
+				</f:facet>
+				<p:messages layout="table" />
+				<p:panelGrid columns="2" styleClass="no-border-grid">
+
+					<p:outputLabel for="name" value="#{msg['addrealsystem.info.name']}" />
+					<p:inputText style="width: 170px;"  value="#{addRealSystemBean.newRealSystem.name}" id="name" required="true" />
+
+					<p:outputLabel for="url" value="#{msg['addrealsystem.info.url']}" />
+					<p:inputText style="width: 290px;" value="#{addRealSystemBean.newRealSystem.urlAddress}" id="url" required="true" />
+					
+					<p:outputLabel for="color" value="#{msg['addrealsystem.info.color']}" />
+					<p:colorPicker value="#{addRealSystemBean.newRealSystem.color}" widgetVar="colorPicker" id="color" />  
+					
+				</p:panelGrid>
+			</p:panel>
+
+			<br />
+	
+			<p:panel>
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['addrealsystem.description']}" />
+				</f:facet>
+				#{msg['addrealsystem.description.text']}
+				
+				<br />
+				<br />
+				<p:panelGrid columns="2" styleClass="no-border-grid">
+					<p:outputLabel style="font-weight:bold;" for="langSk" value="#{msg['addrealsystem.description.language']}" />
+					<h:outputText style="font-weight:bold;" value="#{addRealSystemBean.descriptions['sk'].locale.languageName}" id="langSk" />
+				</p:panelGrid>
+				<pe:ckEditor id="editorSk" width="100%" height="150px" value="#{addRealSystemBean.descriptions['sk'].description}" checkDirtyInterval="0" /> 
+				
+				<br />
+				<p:panelGrid columns="2" styleClass="no-border-grid">
+					<p:outputLabel style="font-weight:bold;" for="langEn" value="#{msg['addrealsystem.description.language']}" />
+					<h:outputText style="font-weight:bold;" value="#{addRealSystemBean.descriptions['en'].locale.languageName}" id="langEn" />
+				</p:panelGrid>
+				<pe:ckEditor id="editorEn" width="100%" height="150px" value="#{addRealSystemBean.descriptions['en'].description}" checkDirtyInterval="0" />  
+			</p:panel>
+	
+			
+  
+  		<br />
+			
+		<!-- <div style="position: relative; left: 360px; width: 200px;"> -->
+			<p:panel>
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['addrealsystem.uploadpictures']}" />
+				</f:facet>
+				
+				#{msg['addrealsystem.uploadpictures.text']}
+				
+				<br />
+				<br />				
+				
+				<p:fileUpload fileUploadListener="#{addRealSystemBean.handleFileUpload}" mode="advanced" 
+					auto="true" sizeLimit="10000000" allowTypes="/(\.|\/)(gif|jpe?g|png)$/" update="picturesPanelGrid"/>
+				
+				<br />	
+				
+				<p:panel id="pictures">
+				
+					<!-- <ui:repeat var="picture" value="#{addRealSystemBean.pictures}"> -->
+					<p:dataGrid id="picturesPanelGrid" value="#{addRealSystemBean.pictures}" var="picture" columns="3" rows="20">
+						<p:graphicImage value="/pictures/#{picture}" height="150" width="150"/>
+						<!-- <h:outputText value="#{picture}"/> -->
+					</p:dataGrid>
+						
+					<!-- </ui:repeat> -->
+					
+					<!-- 
+					<p:galleria id="galeria" value="#{addRealSystemBean.pictures}" var="pic" panelWidth="500" panelHeight="313" showCaption="false">
+						<p:graphicImage value="/pictures/#{pic}" />
+					</p:galleria>
+					 -->
+				</p:panel>
+			</p:panel>
+		<!-- </div> -->
+		
+		<br />
+		
+		<p:messages id="messages" />
+		
+		<br />
+		
+		<p:commandButton id="addButton" value="#{msg['addrealsystem.save']}" action="#{addRealSystemBean.submit}" update="@form" />
+		
+		</h:form>
+		
+	</ui:define>
+
+</ui:composition>
+</html>

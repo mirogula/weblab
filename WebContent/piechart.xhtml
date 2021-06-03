@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>kolacovy graf</title>
+</h:head>
+<h:body>
+<!--
+<h:form id="form">   
+    <p:poll interval="3" update="aaa" />
+    <p:pieChart id="aaa" value="#{pieChartBean.livePieModel}" title="Live Chart"  
+                legendPosition="nw" style="width:400px;height:300px"/>
+</h:form>
+-->
+           <h:form id="form">
+
+                <p:poll interval="1" update="votes" />
+                
+                <p:pieChart id="votes" value="#{pieChartBean.livePieModel}" title="Live Chart"
+                            legendPosition="nw" style="width:400px;height:300px"/>
+
+            </h:form>
+</h:body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+	
+		<ui:define name="content">
+	
+
+
+	<h:form id="form">
+		<p:growl id="growl" showDetail="true" sticky="true" redisplay="true"/> 
+		
+		<p:dialog id="errorDialog" modal="true" header="ERROR" visible="#{linechartBean.errorDialogVisible}">
+			<h:outputText value="#{linechartBean.errorDialogText}"/>
+		</p:dialog>
+	
+		<p:panel id="controlPanel" header="Controls" style="width:800px; position: absolute;" toggleable="true">
+			<p:commandButton id="connectCommand"  value="connect" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.connect}" />
+			<p:inputText id="matlabAdapterLocationInput" value="#{linechartBean.matlabAdapterLocation}" size="30"/>
+			<p:commandButton id="openCommand"  value="open Model" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.openModel}" />
+			<p:inputText id="modelNameInput" value="#{linechartBean.modelLocation}" size="30"/>
+			<p:selectBooleanCheckbox id="buildModelCheckBox" value="#{linechartBean.buildModel}" />
+			<p:commandButton id="closeCommand"  value="close Model" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.closeModel}" />
+			<p:commandButton id="disconnectCommand"  value="disconnect" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.disconnect}" /> 
+			<p:commandButton id="startCommand"  value="start" style="font-size: 12px; margin:0px"
+				 update="poll, growl, errorDialog" actionListener="#{linechartBean.setRunning(true)}" onclick="poll.start();" /> 
+			<p:commandButton id="stopCommand"  value="stop" style="font-size: 12px;  margin:0px"
+				 update="poll, growl, errorDialog" actionListener="#{linechartBean.setRunning(false)}" onclick="poll.stop();" />
+			<p:commandButton id="dumpGraphDataCommand"  value="Dump Graph Data" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.dumpGraphData}" />
+		</p:panel>
+		<p:draggable for="controlPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+
+		<p:panel id="setParamPanel" header="Set Parameter" style="width:300px; position: absolute;" toggleable="true">
+			<h:panelGrid columns="2" cellpadding="5">
+				<h:outputLabel for="objectName" value="Object Name:" />
+				<p:inputText id="objectName" value="#{linechartBean.setParamObjectName}" size="30"/>
+				<h:outputLabel for="paramName" value="Parameter Name:" />
+				<p:inputText id="paramName" value="#{linechartBean.setParamParamName}" size="30"/>
+				<h:outputLabel for="paramValue" value="Parameter Value:" />
+				<p:inputText id="paramValue" value="#{linechartBean.setParamParamValue}" size="10"/>
+			</h:panelGrid>
+			<p:commandButton id="executeSetParam" value="Set" style="font-size: 12px; margin:0px"
+				 update="growl, errorDialog" actionListener="#{linechartBean.executeSetParam}" />
+		</p:panel>
+		<p:draggable for="setParamPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+
+		<p:poll id="poll" interval="1" update="linechart1, linechart2" onstart="linechart1.plot.replot()" autoStart="false" listener="#{linechartBean.updateModel}" widgetVar="poll" />
+
+		<p:panel id="linechartPanel1" header="realtime graf 1" style="width:300px; position: absolute;" closable="true" toggleable="true">
+			<p:lineChart id="linechart1" value="#{linechartBean.model[0]}" shadow="false" widgetVar="linechart1"
+					minX="#{linechartBean.minX[0]}" maxX="#{linechartBean.maxX[0]}" zoom="true" />
+		</p:panel>
+		<p:resizable for="linechartPanel1" onResize="$('#linechart1').height($('#linechartPanel1').height()*0.96);
+                         $('#linechart1').width($('#linechartPanel1').width()*0.96);
+                         linechart1.plot.replot( { resetAxes: true } )" />
+		<p:draggable for="linechartPanel1" handle=".ui-panel-titlebar" stack=".ui-panel" />
+		<p:droppable>
+			<p:ajax listener="#{linechartBean.onDrop}" />
+		</p:droppable>
+		
+		
+		<p:panel id="linechartPanel2" header="realtime graf 2" style="width:300px; position: absolute;" closable="true" toggleable="true">
+			<p:lineChart id="linechart2" value="#{linechartBean.model[1]}" shadow="false" widgetVar="linechart2" 
+					minX="#{linechartBean.minX[1]}" maxX="#{linechartBean.maxX[1]}" zoom="true"  />
+		</p:panel>
+		<p:resizable for="linechartPanel2" onResize="$('#linechart2').height($('#linechartPanel2').height()*0.96);
+                         $('#linechart2').width($('#linechartPanel2').width()*0.96);
+                         linechart2.plot.replot( { resetAxes: true } )" />
+		<p:draggable for="linechartPanel2" handle=".ui-panel-titlebar" stack=".ui-panel" />
+		
+		<p:panel id="terminalPanel" header="Matlab Command Window" style="width:400px; height: 300px; font-size:13px; position: absolute;" closable="true" toggleable="true">
+			<p:terminal commandHandler="#{linechartBean.handleCommand}" height="220px" width="380px" prompt=">>" welcomeMessage=""/>
+		</p:panel>
+		<p:resizable for="terminalPanel" />
+		<p:draggable for="terminalPanel" handle=".ui-panel-titlebar" stack=".ui-panel" />
+	</h:form>
+
+	</ui:define>
+
+</ui:composition>
+
+</html>

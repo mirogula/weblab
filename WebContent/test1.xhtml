@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+		<ui:define name="content">
+		
+		
+	  		<h:form>
+	  			<p:panel id="webviewPanel" rendered="true">
+	  				<f:facet name="header">
+	  					<h:outputText value="schema" />
+	  				</f:facet>
+	  				<!-- <iframe style="position: absolute; height: 80%; top: 40px; left: 13px; width: 96%;" src="webview/bbbb_slwebview.html"></iframe>  -->
+	  				<iframe height="85%" width="100%" src="#{request.contextPath}/webview/vrmaglev_slwebview.html">
+	  					iframe not supported
+	  				</iframe>
+	  			</p:panel>
+	  			<p:resizable for="webviewPanel"/>
+	  			<p:draggable for="webviewPanel" handle="header" />
+	  			
+	  			
+	  			<!-- 
+				<p:dataTable styleClass="blue" var="testTable" value="#{testBean.allTests}">
+					<p:column headerText="ID">
+						<h:outputText value="#{testTable.id}"/>
+					</p:column>
+					<p:column headerText="User Name">
+						<h:outputText value="#{testTable.userName}"/>
+					</p:column>
+					<p:column headerText="Password">
+						<h:outputText value="#{testTable.password}"/>
+					</p:column>
+					<p:column headerText="Email">
+						<h:outputText value="#{testTable.email}"/>
+					</p:column>
+									
+				</p:dataTable>
+				 -->
+			</h:form>
+			
+		</ui:define>
+	</ui:composition>
+
+</html>

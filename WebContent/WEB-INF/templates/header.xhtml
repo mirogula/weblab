@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<f:view>
+	
+		<p class="header-title">WebLab</p>
+		<div id="languages" class="ui-widget">
+			<h:form id="langForm">
+				<ul>
+					<li>
+						<p:commandLink actionListener="#{languageBean.changeLocale('sk')}" update="@(form)">
+							<p:graphicImage alt="Slovenská verzia" title="Slovenská verzia" library="default" name="img/flags/sk.png" />
+						</p:commandLink>
+					</li>
+					<li>
+						<p:commandLink actionListener="#{languageBean.changeLocale('en')}" update="@(form)">
+							<p:graphicImage alt="English version" title="English version" library="default" name="img/flags/gb.png" />
+						</p:commandLink>
+					</li>
+				</ul>
+			</h:form>
+		</div>
+		<div id="account-info">
+			<h:form id="accountForm">
+				<h:link outcome="login" styleClass="account-info-link" rendered="#{empty request.remoteUser}">
+					<h:outputText value="#{msg['header.login']}"/>
+				</h:link>
+				<h:link outcome="register" styleClass="account-info-link" rendered="#{empty request.remoteUser}">
+					<h:outputText value="#{msg['header.signup']}"/>
+				</h:link>
+				<h:link outcome="/user/userprofile" styleClass="account-info-link" rendered="#{not empty request.remoteUser}">
+					<h:outputText value="#{msg['header.loggedin']} #{request.remoteUser}"/>
+				</h:link>
+				<p:commandLink  action="#{logoutBean.submit}" styleClass="account-info-link" rendered="#{not empty request.remoteUser}">
+					<h:outputText value="#{msg['header.logout']}"/>
+				</p:commandLink>
+			</h:form>
+		</div>
+			
+	</f:view>
+</html>

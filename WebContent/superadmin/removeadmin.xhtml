@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="content">
+	     
+	 
+			<h:form id="addRealSystemForm">
+			<p:panel style="margin-left: 300px;">
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['userprofile.label']}" />
+				</f:facet>
+				<p:panelGrid styleClass="no-border-grid" cellpadding="5">
+					<p:row>
+						<p:column colspan="3">
+							<p:messages globalOnly="true" layout="table" />
+						</p:column>
+					</p:row>
+					
+					<p:row>
+						<p:column>
+							<p:outputLabel for="username" value="#{msg['userprofile.label.username']}" />
+						</p:column>
+						<p:column>
+							<h:outputText  value="#{userProfileBean.user.username}" id="username" />
+						</p:column>
+						<p:column>
+						</p:column>
+					</p:row>
+					
+					<p:row>
+						<p:column>
+							<p:outputLabel for="signupDate" value="#{msg['userprofile.label.signupdate']}" />
+						</p:column>
+						<p:column>
+							<h:outputText  value="#{userProfileBean.user.signupDate.time}" id="signupDate">
+								<f:convertDateTime type="both"/>
+							</h:outputText>
+						</p:column>
+						<p:column>
+						</p:column>
+					</p:row>
+					
+					<p:row>
+						<p:column>
+							<p:outputLabel for="email" value="#{msg['userprofile.label.email']}" />
+						</p:column>
+						<p:column>
+							<p:inputText value="#{userProfileBean.email}" id="email" required="true">
+								<f:ajax event="blur"  render="m_email" />
+							</p:inputText>
+						</p:column>
+						<p:column>
+							<p:message id="m_email" for="email" />
+						</p:column>
+					</p:row>
+					
+					
+					<p:row>
+						<p:column>
+							<p:outputLabel for="language" value="#{msg['userprofile.label.language']}" />
+						</p:column>
+						<p:column>
+							<p:selectOneMenu id="language" value="#{userProfileBean.selectedLanguage}">
+								<f:selectItems value="#{userProfileBean.languages}"/>
+							</p:selectOneMenu>
+						</p:column>
+						<p:column>
+						</p:column>
+					</p:row>
+
+					<p:row>
+						<p:column colspan="3">
+							<p:commandButton id="showChangePassDialog" value="#{msg['userprofile.label.password']}" onclick="changePassDialog.show()" />
+						</p:column>
+						<p:column></p:column>
+						<p:column></p:column>
+					</p:row>					
+					
+					<p:row>
+						<p:column></p:column>
+						<p:column>
+							<p:commandButton update="@form" id="updateButton" value="#{msg['userprofile.label.update']}" action="#{userProfileBean.update()}" />
+						</p:column>
+						<p:column></p:column>
+					</p:row>
+				</p:panelGrid>
+			</p:panel>
+			
+			
+			
+			<p:dialog header="#{msg['userprofile.label.password']}" modal="true" id="changePassDialog" widgetVar="changePassDialog">
+				<p:panelGrid styleClass="no-border-grid" cellpadding="5">
+					<!-- <p:row>
+						<p:column colspan="3">
+							<p:messages id="passUpdate" layout="table" />
+						</p:column>
+					</p:row>
+					 -->
+					 
+					<p:row>
+						<p:column>
+							<p:outputLabel for="passwordOld" value="#{msg['userprofile.label.password.old']}" />
+						</p:column>
+						<p:column>
+							<p:inputText value="#{userProfileBean.checkOldPassword}" id="passwordOld" required="true" />
+						</p:column>
+						<p:column>
+							<p:message id="m_passwordOld" for="passwordOld" />
+						</p:column>
+					</p:row>
+					
+					<p:row>
+						<p:column>
+							<p:outputLabel for="passwordNew" value="#{msg['userprofile.label.password.new']}" />
+						</p:column>
+						<p:column>
+							<p:inputText value="#{userProfileBean.newPassword}" id="passwordNew" required="true" />
+						</p:column>
+						<p:column>
+							<p:message id="m_passwordNew" for="passwordNew" />
+						</p:column>
+					</p:row>
+					
+										
+					<p:row>
+						<p:column>
+						</p:column>
+						<p:column>
+							<p:commandButton update="@form" id="changePassword" value="#{msg['userprofile.label.password']}" 
+								action="#{userProfileBean.updatePassword}" oncomplete="changePassDialog.hide()" />
+						</p:column>
+						<p:column>
+						</p:column>
+					</p:row>
+				</p:panelGrid>
+	
+			</p:dialog>
+	
+			</h:form>
+	
+	</ui:define>
+
+</ui:composition>
+</html>

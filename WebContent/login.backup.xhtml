@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="content">
+	     
+			<h:form id="loginForm">
+				
+				<div style="text-align: center;">
+				<div style="display: inline-block; border: 1px solid red; text-align: left; min-width: 600px;">
+				<h2>#{msg['header.login']}</h2>				
+				<!-- <p:panel style="font-size: 13px; margin-left: 300px;">
+					<f:facet name="header">
+						<h:outputText style="font-size: 16px;" value="#{msg['header.login']}" />
+					</f:facet>
+					 -->
+					<p:panelGrid styleClass="no-border-grid" cellpadding="5">
+						<p:row>
+							<p:column colspan="3">
+								<p:messages globalOnly="true" layout="table" />
+							</p:column>
+						</p:row>
+						
+						<p:row>
+							<p:column>
+								<p:outputLabel for="username" value="#{msg['login.label.username']}" />
+							</p:column>
+							<p:column>
+								<p:inputText value="#{loginBean.username}" id="username" required="true">
+									<f:ajax event="blur"  render="m_username" />
+								</p:inputText>
+							</p:column>
+							<p:column>
+								<p:message id="m_username" for="username" />
+							</p:column>
+						</p:row>
+						
+						<p:row>
+							<p:column>
+								<p:outputLabel for="password" value="#{msg['login.label.password']}" />
+							</p:column>
+							<p:column>
+								<p:password value="#{loginBean.password}" id="password" required="true">
+									<f:ajax event="blur"  render="m_password" />
+								</p:password>
+							</p:column>
+							<p:column>
+								<p:message id="m_password" for="password" />
+							</p:column>
+						</p:row>
+						
+						<p:row>
+							<br /><br />
+							<p:column>
+								<p:commandButton update="@form" id="loginButton" value="#{msg['login.submitButton']}" action="#{loginBean.submit}" />
+							</p:column>
+							<p:column></p:column>
+							<p:column></p:column>
+						</p:row>
+					</p:panelGrid>
+				<!-- </p:panel> -->
+				</div>
+				</div>
+			</h:form>
+		
+	</ui:define>
+
+</ui:composition>
+</html>

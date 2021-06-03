@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+
+	<ui:define name="content">
+	     
+	 
+			<h:form id="RealSystemInfo">
+			
+			<p:growl id="growl" showDetail="true" sticky="true" />
+			
+			<p:panel style="margin-left: 330px;">
+				<f:facet name="header">
+					<h:outputText style="font-size: 16px;" value="#{msg['listrealsystem.list.label']}" />
+				</f:facet>
+				
+				<p:ajaxStatus  id="ajaxStatusPanel">
+					<f:facet name="start">
+						<h:graphicImage style="width:64px;height:64px; display:inline;" library="default" name="img/load.gif" />
+					</f:facet>
+
+					<f:facet name="complete">
+						<h:outputText value="" />
+					</f:facet>
+				</p:ajaxStatus>
+				
+				<p:dataTable var="realSystem" value="#{realSystemInfoBean.realSystems}">
+					<p:column headerText="#{msg['listrealsystem.name']}">
+						<h:outputText value="#{realSystem.name}" />
+					</p:column>
+					<p:column headerText="#{msg['listrealsystem.url']}">
+						<h:outputText value="#{realSystem.urlAddress}" />
+					</p:column>
+					<p:column rendered="#{not empty request.remoteUser}">
+						<h:link style="font-weight: bold;" outcome="/user/realsystemdetails" value="#{msg['listrealsystem.details']}">
+							<f:param name="id" value="#{realSystem.id}"/>
+						</h:link>
+					</p:column>
+					<p:column>
+						<p:commandButton update=":RealSystemInfo:growl" value="Spustiť experiment" rendered="#{realSystem.name == 'virtual_pc'}" 
+							action="#{experimentBean.openConnection(realSystem.urlAddress)}" />
+					</p:column>
+				</p:dataTable>
+				
+			</p:panel>
+			</h:form>
+	
+	</ui:define>
+
+</ui:composition>
+</html>
